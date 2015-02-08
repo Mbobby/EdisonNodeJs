@@ -1,0 +1,2263 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--save', 'express' ]
+2 info using npm@1.4.23
+3 info using node@v0.10.31
+4 warn package.json LocalTemperature@0.0.0 No repository field.
+5 verbose readDependencies using package.json deps
+6 verbose cache add [ 'express', null ]
+7 verbose cache add name=undefined spec="express" args=["express",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: 'express',
+8 verbose parsed url   path: 'express',
+8 verbose parsed url   href: 'express' }
+9 silly lockFile f3c62de4-express express
+10 verbose lock express /Users/emmanuelmong/.npm/f3c62de4-express.lock
+11 silly lockFile f3c62de4-express express
+12 silly lockFile f3c62de4-express express
+13 verbose addNamed [ 'express', '' ]
+14 verbose addNamed [ null, '*' ]
+15 silly lockFile 64a534c1-express express@
+16 verbose lock express@ /Users/emmanuelmong/.npm/64a534c1-express.lock
+17 silly addNameRange { name: 'express', range: '*', hasData: false }
+18 verbose request where is /express
+19 verbose request registry https://registry.npmjs.org/
+20 verbose request id 45908c6e8fca99a3
+21 verbose url raw /express
+22 verbose url resolving [ 'https://registry.npmjs.org/', './express' ]
+23 verbose url resolved https://registry.npmjs.org/express
+24 verbose request where is https://registry.npmjs.org/express
+25 info trying registry request attempt 1 at 20:17:45
+26 verbose etag "D07QP8BY0EHESQNC82ILRLXUB"
+27 http GET https://registry.npmjs.org/express
+28 http 304 https://registry.npmjs.org/express
+29 silly registry.get cb [ 304,
+29 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+29 silly registry.get     server: 'Apache',
+29 silly registry.get     via: '1.1 varnish',
+29 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+29 silly registry.get     'cache-control': 'max-age=60',
+29 silly registry.get     etag: '"D07QP8BY0EHESQNC82ILRLXUB"',
+29 silly registry.get     age: '57',
+29 silly registry.get     'x-served-by': 'cache-iad2130-IAD',
+29 silly registry.get     'x-cache': 'HIT',
+29 silly registry.get     'x-cache-hits': '1',
+29 silly registry.get     'x-timer': 'S1423358266.447834,VS0,VE2',
+29 silly registry.get     vary: 'Accept',
+29 silly registry.get     'content-length': '0',
+29 silly registry.get     'keep-alive': 'timeout=10, max=50',
+29 silly registry.get     connection: 'Keep-Alive' } ]
+30 verbose etag https://registry.npmjs.org/express from cache
+31 silly addNameRange number 2 { name: 'express', range: '*', hasData: true }
+32 silly addNameRange versions [ 'express',
+32 silly addNameRange   [ '0.14.0',
+32 silly addNameRange     '0.14.1',
+32 silly addNameRange     '1.0.0',
+32 silly addNameRange     '1.0.1',
+32 silly addNameRange     '1.0.2',
+32 silly addNameRange     '1.0.3',
+32 silly addNameRange     '1.0.4',
+32 silly addNameRange     '1.0.5',
+32 silly addNameRange     '1.0.6',
+32 silly addNameRange     '1.0.7',
+32 silly addNameRange     '1.0.8',
+32 silly addNameRange     '2.0.0',
+32 silly addNameRange     '2.1.0',
+32 silly addNameRange     '2.1.1',
+32 silly addNameRange     '2.2.0',
+32 silly addNameRange     '2.2.1',
+32 silly addNameRange     '2.2.2',
+32 silly addNameRange     '2.3.0',
+32 silly addNameRange     '2.3.1',
+32 silly addNameRange     '2.3.2',
+32 silly addNameRange     '2.3.3',
+32 silly addNameRange     '2.3.4',
+32 silly addNameRange     '2.3.5',
+32 silly addNameRange     '2.3.6',
+32 silly addNameRange     '2.3.7',
+32 silly addNameRange     '2.3.8',
+32 silly addNameRange     '2.3.9',
+32 silly addNameRange     '2.3.10',
+32 silly addNameRange     '2.3.11',
+32 silly addNameRange     '2.3.12',
+32 silly addNameRange     '2.4.0',
+32 silly addNameRange     '2.4.1',
+32 silly addNameRange     '2.4.2',
+32 silly addNameRange     '2.4.3',
+32 silly addNameRange     '2.4.4',
+32 silly addNameRange     '2.4.5',
+32 silly addNameRange     '2.4.6',
+32 silly addNameRange     '2.4.7',
+32 silly addNameRange     '2.5.0',
+32 silly addNameRange     '2.5.1',
+32 silly addNameRange     '2.5.2',
+32 silly addNameRange     '2.5.3',
+32 silly addNameRange     '2.5.4',
+32 silly addNameRange     '2.5.5',
+32 silly addNameRange     '2.5.6',
+32 silly addNameRange     '2.5.7',
+32 silly addNameRange     '2.5.8',
+32 silly addNameRange     '2.5.9',
+32 silly addNameRange     '2.5.10',
+32 silly addNameRange     '2.5.11',
+32 silly addNameRange     '3.0.0',
+32 silly addNameRange     '3.0.1',
+32 silly addNameRange     '3.0.2',
+32 silly addNameRange     '3.0.3',
+32 silly addNameRange     '3.0.4',
+32 silly addNameRange     '3.0.5',
+32 silly addNameRange     '3.0.6',
+32 silly addNameRange     '3.1.0',
+32 silly addNameRange     '3.1.1',
+32 silly addNameRange     '3.1.2',
+32 silly addNameRange     '3.2.0',
+32 silly addNameRange     '3.2.1',
+32 silly addNameRange     '3.2.2',
+32 silly addNameRange     '3.2.3',
+32 silly addNameRange     '3.2.4',
+32 silly addNameRange     '3.2.5',
+32 silly addNameRange     '3.2.6',
+32 silly addNameRange     '3.3.0',
+32 silly addNameRange     '3.3.1',
+32 silly addNameRange     '3.3.2',
+32 silly addNameRange     '3.3.3',
+32 silly addNameRange     '3.3.4',
+32 silly addNameRange     '3.3.5',
+32 silly addNameRange     '3.3.6',
+32 silly addNameRange     '1.0.0-beta',
+32 silly addNameRange     '1.0.0-beta2',
+32 silly addNameRange     '1.0.0-rc',
+32 silly addNameRange     '1.0.0-rc2',
+32 silly addNameRange     '1.0.0-rc3',
+32 silly addNameRange     '1.0.0-rc4',
+32 silly addNameRange     '2.0.0-beta',
+32 silly addNameRange     '2.0.0-beta2',
+32 silly addNameRange     '2.0.0-beta3',
+32 silly addNameRange     '2.0.0-rc',
+32 silly addNameRange     '2.0.0-rc2',
+32 silly addNameRange     '2.0.0-rc3',
+32 silly addNameRange     '3.0.0-alpha1',
+32 silly addNameRange     '3.0.0-alpha2',
+32 silly addNameRange     '3.0.0-alpha3',
+32 silly addNameRange     '3.0.0-alpha4',
+32 silly addNameRange     '3.0.0-alpha5',
+32 silly addNameRange     '3.0.0-beta1',
+32 silly addNameRange     '3.0.0-beta2',
+32 silly addNameRange     '3.0.0-beta3',
+32 silly addNameRange     '3.0.0-beta4',
+32 silly addNameRange     '3.0.0-beta6',
+32 silly addNameRange     '3.0.0-beta7',
+32 silly addNameRange     '3.0.0-rc1',
+32 silly addNameRange     '3.0.0-rc2',
+32 silly addNameRange     '3.0.0-rc3',
+32 silly addNameRange     '3.0.0-rc4',
+32 silly addNameRange     '3.0.0-rc5',
+32 silly addNameRange     '3.3.7',
+32 silly addNameRange     '3.3.8',
+32 silly addNameRange     '3.4.0',
+32 silly addNameRange     '3.4.1',
+32 silly addNameRange     '3.4.2',
+32 silly addNameRange     '3.4.3',
+32 silly addNameRange     '3.4.4',
+32 silly addNameRange     '3.4.5',
+32 silly addNameRange     '3.4.6',
+32 silly addNameRange     '3.4.7',
+32 silly addNameRange     '3.4.8',
+32 silly addNameRange     '4.0.0-rc1',
+32 silly addNameRange     '4.0.0-rc2',
+32 silly addNameRange     '3.5.0',
+32 silly addNameRange     '4.0.0-rc3',
+32 silly addNameRange     '4.0.0-rc4',
+32 silly addNameRange     '3.5.1',
+32 silly addNameRange     '4.0.0',
+32 silly addNameRange     '3.5.2',
+32 silly addNameRange     '4.1.0',
+32 silly addNameRange     '4.1.1',
+32 silly addNameRange     '3.5.3',
+32 silly addNameRange     '4.1.2',
+32 silly addNameRange     '3.6.0',
+32 silly addNameRange     '4.2.0',
+32 silly addNameRange     '3.7.0',
+32 silly addNameRange     '3.8.0',
+32 silly addNameRange     '4.3.0',
+32 silly addNameRange     '4.3.1',
+32 silly addNameRange     '3.8.1',
+32 silly addNameRange     '4.3.2',
+32 silly addNameRange     '3.9.0',
+32 silly addNameRange     '4.4.0',
+32 silly addNameRange     '4.4.1',
+32 silly addNameRange     '3.10.0',
+32 silly addNameRange     '3.10.1',
+32 silly addNameRange     '3.10.2',
+32 silly addNameRange     '3.10.3',
+32 silly addNameRange     '3.10.4',
+32 silly addNameRange     '4.4.2',
+32 silly addNameRange     '3.10.5',
+32 silly addNameRange     '4.4.3',
+32 silly addNameRange     '3.11.0',
+32 silly addNameRange     '4.4.4',
+32 silly addNameRange     '3.12.0',
+32 silly addNameRange     '3.12.1',
+32 silly addNameRange     '4.4.5',
+32 silly addNameRange     '3.13.0',
+32 silly addNameRange     '4.5.0',
+32 silly addNameRange     '4.5.1',
+32 silly addNameRange     '3.14.0',
+32 silly addNameRange     '4.6.0',
+32 silly addNameRange     '4.6.1',
+32 silly addNameRange     '3.15.0',
+32 silly addNameRange     '4.7.0',
+32 silly addNameRange     '3.15.1',
+32 silly addNameRange     '4.7.1',
+32 silly addNameRange     '3.15.2',
+32 silly addNameRange     '4.7.2',
+32 silly addNameRange     '4.7.3',
+32 silly addNameRange     '3.15.3',
+32 silly addNameRange     '4.7.4',
+32 silly addNameRange     '3.16.0',
+32 silly addNameRange     '4.8.0',
+32 silly addNameRange     '3.16.1',
+32 silly addNameRange     '4.8.1',
+32 silly addNameRange     '3.16.2',
+32 silly addNameRange     '4.8.2',
+32 silly addNameRange     '3.16.3',
+32 silly addNameRange     '3.16.4',
+32 silly addNameRange     '4.8.3',
+32 silly addNameRange     '3.16.5',
+32 silly addNameRange     '3.16.6',
+32 silly addNameRange     '4.8.4',
+32 silly addNameRange     '3.16.7',
+32 silly addNameRange     '4.8.5',
+32 silly addNameRange     '3.16.8',
+32 silly addNameRange     '4.8.6',
+32 silly addNameRange     '3.16.9',
+32 silly addNameRange     '4.8.7',
+32 silly addNameRange     '3.16.10',
+32 silly addNameRange     '4.8.8',
+32 silly addNameRange     '3.17.0',
+32 silly addNameRange     '3.17.1',
+32 silly addNameRange     '4.9.0',
+32 silly addNameRange     '3.17.2',
+32 silly addNameRange     '4.9.1',
+32 silly addNameRange     '4.9.2',
+32 silly addNameRange     '3.17.3',
+32 silly addNameRange     '4.9.3',
+32 silly addNameRange     '3.17.4',
+32 silly addNameRange     '4.9.4',
+32 silly addNameRange     '3.17.5',
+32 silly addNameRange     '4.9.5',
+32 silly addNameRange     '3.17.6',
+32 silly addNameRange     '3.17.7',
+32 silly addNameRange     '4.9.6',
+32 silly addNameRange     '4.9.7',
+32 silly addNameRange     '3.17.8',
+32 silly addNameRange     '4.9.8',
+32 silly addNameRange     '3.18.0',
+32 silly addNameRange     '3.18.1',
+32 silly addNameRange     '4.10.0',
+32 silly addNameRange     '3.18.2',
+32 silly addNameRange     '4.10.1',
+32 silly addNameRange     '5.0.0-alpha.1',
+32 silly addNameRange     '3.18.3',
+32 silly addNameRange     '4.10.2',
+32 silly addNameRange     '3.18.4',
+32 silly addNameRange     '4.10.3',
+32 silly addNameRange     '4.10.4',
+32 silly addNameRange     '4.10.5',
+32 silly addNameRange     '3.18.5',
+32 silly addNameRange     '3.18.6',
+32 silly addNameRange     '4.10.6',
+32 silly addNameRange     '4.10.7',
+32 silly addNameRange     '3.19.0',
+32 silly addNameRange     '4.10.8',
+32 silly addNameRange     '4.11.0',
+32 silly addNameRange     '3.19.1',
+32 silly addNameRange     '4.11.1',
+32 silly addNameRange     '3.19.2',
+32 silly addNameRange     '4.11.2' ] ]
+33 verbose addNamed [ 'express', '4.11.2' ]
+34 verbose addNamed [ '4.11.2', '4.11.2' ]
+35 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+36 verbose lock express@4.11.2 /Users/emmanuelmong/.npm/69e74cc8-express-4-11-2.lock
+37 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+38 silly lockFile 69e74cc8-express-4-11-2 express@4.11.2
+39 silly lockFile 64a534c1-express express@
+40 silly lockFile 64a534c1-express express@
+41 silly resolved [ { name: 'express',
+41 silly resolved     description: 'Fast, unopinionated, minimalist web framework',
+41 silly resolved     version: '4.11.2',
+41 silly resolved     author: { name: 'TJ Holowaychuk', email: 'tj@vision-media.ca' },
+41 silly resolved     contributors:
+41 silly resolved      [ [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object] ],
+41 silly resolved     license: 'MIT',
+41 silly resolved     repository: { type: 'git', url: 'https://github.com/strongloop/express' },
+41 silly resolved     homepage: 'http://expressjs.com/',
+41 silly resolved     keywords:
+41 silly resolved      [ 'express',
+41 silly resolved        'framework',
+41 silly resolved        'sinatra',
+41 silly resolved        'web',
+41 silly resolved        'rest',
+41 silly resolved        'restful',
+41 silly resolved        'router',
+41 silly resolved        'app',
+41 silly resolved        'api' ],
+41 silly resolved     dependencies:
+41 silly resolved      { accepts: '~1.2.3',
+41 silly resolved        'content-disposition': '0.5.0',
+41 silly resolved        'cookie-signature': '1.0.5',
+41 silly resolved        debug: '~2.1.1',
+41 silly resolved        depd: '~1.0.0',
+41 silly resolved        'escape-html': '1.0.1',
+41 silly resolved        etag: '~1.5.1',
+41 silly resolved        finalhandler: '0.3.3',
+41 silly resolved        fresh: '0.2.4',
+41 silly resolved        'media-typer': '0.3.0',
+41 silly resolved        methods: '~1.1.1',
+41 silly resolved        'on-finished': '~2.2.0',
+41 silly resolved        parseurl: '~1.3.0',
+41 silly resolved        'path-to-regexp': '0.1.3',
+41 silly resolved        'proxy-addr': '~1.0.6',
+41 silly resolved        qs: '2.3.3',
+41 silly resolved        'range-parser': '~1.0.2',
+41 silly resolved        send: '0.11.1',
+41 silly resolved        'serve-static': '~1.8.1',
+41 silly resolved        'type-is': '~1.5.6',
+41 silly resolved        vary: '~1.0.0',
+41 silly resolved        cookie: '0.1.2',
+41 silly resolved        'merge-descriptors': '0.0.2',
+41 silly resolved        'utils-merge': '1.0.0' },
+41 silly resolved     devDependencies:
+41 silly resolved      { after: '0.8.1',
+41 silly resolved        ejs: '2.1.4',
+41 silly resolved        istanbul: '0.3.5',
+41 silly resolved        marked: '0.3.3',
+41 silly resolved        mocha: '~2.1.0',
+41 silly resolved        should: '~4.6.2',
+41 silly resolved        supertest: '~0.15.0',
+41 silly resolved        hjs: '~0.0.6',
+41 silly resolved        'body-parser': '~1.11.0',
+41 silly resolved        'connect-redis': '~2.2.0',
+41 silly resolved        'cookie-parser': '~1.3.3',
+41 silly resolved        'express-session': '~1.10.2',
+41 silly resolved        jade: '~1.9.1',
+41 silly resolved        'method-override': '~2.3.1',
+41 silly resolved        morgan: '~1.5.1',
+41 silly resolved        multiparty: '~4.1.1',
+41 silly resolved        vhost: '~3.0.0' },
+41 silly resolved     engines: { node: '>= 0.10.0' },
+41 silly resolved     files: [ 'LICENSE', 'History.md', 'Readme.md', 'index.js', 'lib/' ],
+41 silly resolved     scripts:
+41 silly resolved      { test: 'mocha --require test/support/env --reporter spec --bail --check-leaks test/ test/acceptance/',
+41 silly resolved        'test-cov': 'istanbul cover node_modules/mocha/bin/_mocha -- --require test/support/env --reporter dot --check-leaks test/ test/acceptance/',
+41 silly resolved        'test-tap': 'mocha --require test/support/env --reporter tap --check-leaks test/ test/acceptance/',
+41 silly resolved        'test-travis': 'istanbul cover node_modules/mocha/bin/_mocha --report lcovonly -- --require test/support/env --reporter spec --check-leaks test/ test/acceptance/' },
+41 silly resolved     gitHead: '63ab25579bda70b4927a179b580a9c580b6c7ada',
+41 silly resolved     bugs: { url: 'https://github.com/strongloop/express/issues' },
+41 silly resolved     _id: 'express@4.11.2',
+41 silly resolved     _shasum: '8df3d5a9ac848585f00a0777601823faecd3b148',
+41 silly resolved     _from: 'express@',
+41 silly resolved     _npmVersion: '1.4.28',
+41 silly resolved     _npmUser: { name: 'dougwilson', email: 'doug@somethingdoug.com' },
+41 silly resolved     maintainers:
+41 silly resolved      [ [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object],
+41 silly resolved        [Object] ],
+41 silly resolved     dist:
+41 silly resolved      { shasum: '8df3d5a9ac848585f00a0777601823faecd3b148',
+41 silly resolved        tarball: 'http://registry.npmjs.org/express/-/express-4.11.2.tgz' },
+41 silly resolved     directories: {},
+41 silly resolved     _resolved: 'https://registry.npmjs.org/express/-/express-4.11.2.tgz',
+41 silly resolved     readme: 'ERROR: No README data found!' } ]
+42 info install express@4.11.2 into /Users/emmanuelmong/Development/IOT-NodeJs/Sample1
+43 info installOne express@4.11.2
+44 verbose node_modules/express unbuild
+45 verbose tar unpack /Users/emmanuelmong/.npm/express/4.11.2/package.tgz
+46 silly lockFile 08d4843e-eJs-Sample1-node-modules-express tar:///Users/emmanuelmong/Development/IOT-NodeJs/Sample1/node_modules/express
+47 verbose lock tar:///Users/emmanuelmong/Development/IOT-NodeJs/Sample1/node_modules/express /Users/emmanuelmong/.npm/08d4843e-eJs-Sample1-node-modules-express.lock
+48 silly lockFile df1761cd-g-npm-express-4-11-2-package-tgz tar:///Users/emmanuelmong/.npm/express/4.11.2/package.tgz
+49 verbose lock tar:///Users/emmanuelmong/.npm/express/4.11.2/package.tgz /Users/emmanuelmong/.npm/df1761cd-g-npm-express-4-11-2-package-tgz.lock
+50 silly gunzTarPerm modes [ '755', '644' ]
+51 silly gunzTarPerm extractEntry package.json
+52 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+53 silly gunzTarPerm extractEntry LICENSE
+54 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+55 silly gunzTarPerm extractEntry index.js
+56 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+57 silly gunzTarPerm extractEntry History.md
+58 silly gunzTarPerm modified mode [ 'History.md', 438, 420 ]
+59 silly gunzTarPerm extractEntry Readme.md
+60 silly gunzTarPerm modified mode [ 'Readme.md', 438, 420 ]
+61 silly gunzTarPerm extractEntry lib/application.js
+62 silly gunzTarPerm modified mode [ 'lib/application.js', 438, 420 ]
+63 silly gunzTarPerm extractEntry lib/express.js
+64 silly gunzTarPerm modified mode [ 'lib/express.js', 438, 420 ]
+65 silly gunzTarPerm extractEntry lib/request.js
+66 silly gunzTarPerm modified mode [ 'lib/request.js', 438, 420 ]
+67 silly gunzTarPerm extractEntry lib/response.js
+68 silly gunzTarPerm modified mode [ 'lib/response.js', 438, 420 ]
+69 silly gunzTarPerm extractEntry lib/utils.js
+70 silly gunzTarPerm modified mode [ 'lib/utils.js', 438, 420 ]
+71 silly gunzTarPerm extractEntry lib/view.js
+72 silly gunzTarPerm modified mode [ 'lib/view.js', 438, 420 ]
+73 silly gunzTarPerm extractEntry lib/middleware/init.js
+74 silly gunzTarPerm modified mode [ 'lib/middleware/init.js', 438, 420 ]
+75 silly gunzTarPerm extractEntry lib/middleware/query.js
+76 silly gunzTarPerm modified mode [ 'lib/middleware/query.js', 438, 420 ]
+77 silly gunzTarPerm extractEntry lib/router/index.js
+78 silly gunzTarPerm modified mode [ 'lib/router/index.js', 438, 420 ]
+79 silly gunzTarPerm extractEntry lib/router/layer.js
+80 silly gunzTarPerm modified mode [ 'lib/router/layer.js', 438, 420 ]
+81 silly gunzTarPerm extractEntry lib/router/route.js
+82 silly gunzTarPerm modified mode [ 'lib/router/route.js', 438, 420 ]
+83 silly lockFile 08d4843e-eJs-Sample1-node-modules-express tar:///Users/emmanuelmong/Development/IOT-NodeJs/Sample1/node_modules/express
+84 silly lockFile 08d4843e-eJs-Sample1-node-modules-express tar:///Users/emmanuelmong/Development/IOT-NodeJs/Sample1/node_modules/express
+85 silly lockFile df1761cd-g-npm-express-4-11-2-package-tgz tar:///Users/emmanuelmong/.npm/express/4.11.2/package.tgz
+86 silly lockFile df1761cd-g-npm-express-4-11-2-package-tgz tar:///Users/emmanuelmong/.npm/express/4.11.2/package.tgz
+87 info preinstall express@4.11.2
+88 verbose readDependencies using package.json deps
+89 verbose readDependencies using package.json deps
+90 verbose cache add [ 'cookie-signature@1.0.5', null ]
+91 verbose cache add name=undefined spec="cookie-signature@1.0.5" args=["cookie-signature@1.0.5",null]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: 'cookie-signature@1.0.5',
+92 verbose parsed url   path: 'cookie-signature@1.0.5',
+92 verbose parsed url   href: 'cookie-signature@1.0.5' }
+93 verbose cache add name="cookie-signature" spec="1.0.5" args=["cookie-signature","1.0.5"]
+94 verbose parsed url { protocol: null,
+94 verbose parsed url   slashes: null,
+94 verbose parsed url   auth: null,
+94 verbose parsed url   host: null,
+94 verbose parsed url   port: null,
+94 verbose parsed url   hostname: null,
+94 verbose parsed url   hash: null,
+94 verbose parsed url   search: null,
+94 verbose parsed url   query: null,
+94 verbose parsed url   pathname: '1.0.5',
+94 verbose parsed url   path: '1.0.5',
+94 verbose parsed url   href: '1.0.5' }
+95 verbose addNamed [ 'cookie-signature', '1.0.5' ]
+96 verbose addNamed [ '1.0.5', '1.0.5' ]
+97 silly lockFile b564bb98-cookie-signature-1-0-5 cookie-signature@1.0.5
+98 verbose lock cookie-signature@1.0.5 /Users/emmanuelmong/.npm/b564bb98-cookie-signature-1-0-5.lock
+99 verbose cache add [ 'debug@~2.1.1', null ]
+100 verbose cache add name=undefined spec="debug@~2.1.1" args=["debug@~2.1.1",null]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: 'debug@~2.1.1',
+101 verbose parsed url   path: 'debug@~2.1.1',
+101 verbose parsed url   href: 'debug@~2.1.1' }
+102 verbose cache add [ 'depd@~1.0.0', null ]
+103 verbose cache add name=undefined spec="depd@~1.0.0" args=["depd@~1.0.0",null]
+104 verbose parsed url { protocol: null,
+104 verbose parsed url   slashes: null,
+104 verbose parsed url   auth: null,
+104 verbose parsed url   host: null,
+104 verbose parsed url   port: null,
+104 verbose parsed url   hostname: null,
+104 verbose parsed url   hash: null,
+104 verbose parsed url   search: null,
+104 verbose parsed url   query: null,
+104 verbose parsed url   pathname: 'depd@~1.0.0',
+104 verbose parsed url   path: 'depd@~1.0.0',
+104 verbose parsed url   href: 'depd@~1.0.0' }
+105 verbose cache add name="debug" spec="~2.1.1" args=["debug","~2.1.1"]
+106 verbose parsed url { protocol: null,
+106 verbose parsed url   slashes: null,
+106 verbose parsed url   auth: null,
+106 verbose parsed url   host: null,
+106 verbose parsed url   port: null,
+106 verbose parsed url   hostname: null,
+106 verbose parsed url   hash: null,
+106 verbose parsed url   search: null,
+106 verbose parsed url   query: null,
+106 verbose parsed url   pathname: '~2.1.1',
+106 verbose parsed url   path: '~2.1.1',
+106 verbose parsed url   href: '~2.1.1' }
+107 verbose addNamed [ 'debug', '~2.1.1' ]
+108 verbose addNamed [ null, '>=2.1.1-0 <2.2.0-0' ]
+109 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+110 verbose lock debug@~2.1.1 /Users/emmanuelmong/.npm/09d11068-debug-2-1-1.lock
+111 verbose cache add [ 'escape-html@1.0.1', null ]
+112 verbose cache add name=undefined spec="escape-html@1.0.1" args=["escape-html@1.0.1",null]
+113 verbose parsed url { protocol: null,
+113 verbose parsed url   slashes: null,
+113 verbose parsed url   auth: null,
+113 verbose parsed url   host: null,
+113 verbose parsed url   port: null,
+113 verbose parsed url   hostname: null,
+113 verbose parsed url   hash: null,
+113 verbose parsed url   search: null,
+113 verbose parsed url   query: null,
+113 verbose parsed url   pathname: 'escape-html@1.0.1',
+113 verbose parsed url   path: 'escape-html@1.0.1',
+113 verbose parsed url   href: 'escape-html@1.0.1' }
+114 verbose cache add name="depd" spec="~1.0.0" args=["depd","~1.0.0"]
+115 verbose parsed url { protocol: null,
+115 verbose parsed url   slashes: null,
+115 verbose parsed url   auth: null,
+115 verbose parsed url   host: null,
+115 verbose parsed url   port: null,
+115 verbose parsed url   hostname: null,
+115 verbose parsed url   hash: null,
+115 verbose parsed url   search: null,
+115 verbose parsed url   query: null,
+115 verbose parsed url   pathname: '~1.0.0',
+115 verbose parsed url   path: '~1.0.0',
+115 verbose parsed url   href: '~1.0.0' }
+116 verbose addNamed [ 'depd', '~1.0.0' ]
+117 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+118 silly lockFile 5fd3b83f-depd-1-0-0 depd@~1.0.0
+119 verbose lock depd@~1.0.0 /Users/emmanuelmong/.npm/5fd3b83f-depd-1-0-0.lock
+120 verbose cache add [ 'etag@~1.5.1', null ]
+121 verbose cache add name=undefined spec="etag@~1.5.1" args=["etag@~1.5.1",null]
+122 verbose parsed url { protocol: null,
+122 verbose parsed url   slashes: null,
+122 verbose parsed url   auth: null,
+122 verbose parsed url   host: null,
+122 verbose parsed url   port: null,
+122 verbose parsed url   hostname: null,
+122 verbose parsed url   hash: null,
+122 verbose parsed url   search: null,
+122 verbose parsed url   query: null,
+122 verbose parsed url   pathname: 'etag@~1.5.1',
+122 verbose parsed url   path: 'etag@~1.5.1',
+122 verbose parsed url   href: 'etag@~1.5.1' }
+123 verbose cache add name="escape-html" spec="1.0.1" args=["escape-html","1.0.1"]
+124 verbose parsed url { protocol: null,
+124 verbose parsed url   slashes: null,
+124 verbose parsed url   auth: null,
+124 verbose parsed url   host: null,
+124 verbose parsed url   port: null,
+124 verbose parsed url   hostname: null,
+124 verbose parsed url   hash: null,
+124 verbose parsed url   search: null,
+124 verbose parsed url   query: null,
+124 verbose parsed url   pathname: '1.0.1',
+124 verbose parsed url   path: '1.0.1',
+124 verbose parsed url   href: '1.0.1' }
+125 verbose addNamed [ 'escape-html', '1.0.1' ]
+126 verbose addNamed [ '1.0.1', '1.0.1' ]
+127 silly lockFile 1b73425a-escape-html-1-0-1 escape-html@1.0.1
+128 verbose lock escape-html@1.0.1 /Users/emmanuelmong/.npm/1b73425a-escape-html-1-0-1.lock
+129 silly addNameRange { name: 'debug', range: '>=2.1.1-0 <2.2.0-0', hasData: false }
+130 verbose cache add name="etag" spec="~1.5.1" args=["etag","~1.5.1"]
+131 verbose parsed url { protocol: null,
+131 verbose parsed url   slashes: null,
+131 verbose parsed url   auth: null,
+131 verbose parsed url   host: null,
+131 verbose parsed url   port: null,
+131 verbose parsed url   hostname: null,
+131 verbose parsed url   hash: null,
+131 verbose parsed url   search: null,
+131 verbose parsed url   query: null,
+131 verbose parsed url   pathname: '~1.5.1',
+131 verbose parsed url   path: '~1.5.1',
+131 verbose parsed url   href: '~1.5.1' }
+132 verbose addNamed [ 'etag', '~1.5.1' ]
+133 verbose addNamed [ null, '>=1.5.1-0 <1.6.0-0' ]
+134 silly lockFile f5e1798c-etag-1-5-1 etag@~1.5.1
+135 verbose lock etag@~1.5.1 /Users/emmanuelmong/.npm/f5e1798c-etag-1-5-1.lock
+136 silly addNameRange { name: 'depd', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+137 verbose cache add [ 'finalhandler@0.3.3', null ]
+138 verbose cache add name=undefined spec="finalhandler@0.3.3" args=["finalhandler@0.3.3",null]
+139 verbose parsed url { protocol: null,
+139 verbose parsed url   slashes: null,
+139 verbose parsed url   auth: null,
+139 verbose parsed url   host: null,
+139 verbose parsed url   port: null,
+139 verbose parsed url   hostname: null,
+139 verbose parsed url   hash: null,
+139 verbose parsed url   search: null,
+139 verbose parsed url   query: null,
+139 verbose parsed url   pathname: 'finalhandler@0.3.3',
+139 verbose parsed url   path: 'finalhandler@0.3.3',
+139 verbose parsed url   href: 'finalhandler@0.3.3' }
+140 verbose cache add [ 'fresh@0.2.4', null ]
+141 verbose cache add name=undefined spec="fresh@0.2.4" args=["fresh@0.2.4",null]
+142 verbose parsed url { protocol: null,
+142 verbose parsed url   slashes: null,
+142 verbose parsed url   auth: null,
+142 verbose parsed url   host: null,
+142 verbose parsed url   port: null,
+142 verbose parsed url   hostname: null,
+142 verbose parsed url   hash: null,
+142 verbose parsed url   search: null,
+142 verbose parsed url   query: null,
+142 verbose parsed url   pathname: 'fresh@0.2.4',
+142 verbose parsed url   path: 'fresh@0.2.4',
+142 verbose parsed url   href: 'fresh@0.2.4' }
+143 verbose cache add name="finalhandler" spec="0.3.3" args=["finalhandler","0.3.3"]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: '0.3.3',
+144 verbose parsed url   path: '0.3.3',
+144 verbose parsed url   href: '0.3.3' }
+145 verbose addNamed [ 'finalhandler', '0.3.3' ]
+146 verbose addNamed [ '0.3.3', '0.3.3' ]
+147 silly lockFile b31dae24-finalhandler-0-3-3 finalhandler@0.3.3
+148 verbose lock finalhandler@0.3.3 /Users/emmanuelmong/.npm/b31dae24-finalhandler-0-3-3.lock
+149 silly addNameRange { name: 'etag', range: '>=1.5.1-0 <1.6.0-0', hasData: false }
+150 verbose cache add [ 'media-typer@0.3.0', null ]
+151 verbose cache add name=undefined spec="media-typer@0.3.0" args=["media-typer@0.3.0",null]
+152 verbose parsed url { protocol: null,
+152 verbose parsed url   slashes: null,
+152 verbose parsed url   auth: null,
+152 verbose parsed url   host: null,
+152 verbose parsed url   port: null,
+152 verbose parsed url   hostname: null,
+152 verbose parsed url   hash: null,
+152 verbose parsed url   search: null,
+152 verbose parsed url   query: null,
+152 verbose parsed url   pathname: 'media-typer@0.3.0',
+152 verbose parsed url   path: 'media-typer@0.3.0',
+152 verbose parsed url   href: 'media-typer@0.3.0' }
+153 verbose cache add name="fresh" spec="0.2.4" args=["fresh","0.2.4"]
+154 verbose parsed url { protocol: null,
+154 verbose parsed url   slashes: null,
+154 verbose parsed url   auth: null,
+154 verbose parsed url   host: null,
+154 verbose parsed url   port: null,
+154 verbose parsed url   hostname: null,
+154 verbose parsed url   hash: null,
+154 verbose parsed url   search: null,
+154 verbose parsed url   query: null,
+154 verbose parsed url   pathname: '0.2.4',
+154 verbose parsed url   path: '0.2.4',
+154 verbose parsed url   href: '0.2.4' }
+155 verbose addNamed [ 'fresh', '0.2.4' ]
+156 verbose addNamed [ '0.2.4', '0.2.4' ]
+157 silly lockFile 269b5bd6-fresh-0-2-4 fresh@0.2.4
+158 verbose lock fresh@0.2.4 /Users/emmanuelmong/.npm/269b5bd6-fresh-0-2-4.lock
+159 verbose request where is /cookie-signature
+160 verbose request registry https://registry.npmjs.org/
+161 verbose url raw /cookie-signature
+162 verbose url resolving [ 'https://registry.npmjs.org/', './cookie-signature' ]
+163 verbose url resolved https://registry.npmjs.org/cookie-signature
+164 verbose request where is https://registry.npmjs.org/cookie-signature
+165 info trying registry request attempt 1 at 20:17:46
+166 verbose etag "3J0T5V9SPAWLHIPR0O07XHUBG"
+167 http GET https://registry.npmjs.org/cookie-signature
+168 verbose cache add [ 'methods@~1.1.1', null ]
+169 verbose cache add name=undefined spec="methods@~1.1.1" args=["methods@~1.1.1",null]
+170 verbose parsed url { protocol: null,
+170 verbose parsed url   slashes: null,
+170 verbose parsed url   auth: null,
+170 verbose parsed url   host: null,
+170 verbose parsed url   port: null,
+170 verbose parsed url   hostname: null,
+170 verbose parsed url   hash: null,
+170 verbose parsed url   search: null,
+170 verbose parsed url   query: null,
+170 verbose parsed url   pathname: 'methods@~1.1.1',
+170 verbose parsed url   path: 'methods@~1.1.1',
+170 verbose parsed url   href: 'methods@~1.1.1' }
+171 verbose cache add [ 'on-finished@~2.2.0', null ]
+172 verbose cache add name=undefined spec="on-finished@~2.2.0" args=["on-finished@~2.2.0",null]
+173 verbose parsed url { protocol: null,
+173 verbose parsed url   slashes: null,
+173 verbose parsed url   auth: null,
+173 verbose parsed url   host: null,
+173 verbose parsed url   port: null,
+173 verbose parsed url   hostname: null,
+173 verbose parsed url   hash: null,
+173 verbose parsed url   search: null,
+173 verbose parsed url   query: null,
+173 verbose parsed url   pathname: 'on-finished@~2.2.0',
+173 verbose parsed url   path: 'on-finished@~2.2.0',
+173 verbose parsed url   href: 'on-finished@~2.2.0' }
+174 verbose cache add [ 'parseurl@~1.3.0', null ]
+175 verbose cache add name=undefined spec="parseurl@~1.3.0" args=["parseurl@~1.3.0",null]
+176 verbose parsed url { protocol: null,
+176 verbose parsed url   slashes: null,
+176 verbose parsed url   auth: null,
+176 verbose parsed url   host: null,
+176 verbose parsed url   port: null,
+176 verbose parsed url   hostname: null,
+176 verbose parsed url   hash: null,
+176 verbose parsed url   search: null,
+176 verbose parsed url   query: null,
+176 verbose parsed url   pathname: 'parseurl@~1.3.0',
+176 verbose parsed url   path: 'parseurl@~1.3.0',
+176 verbose parsed url   href: 'parseurl@~1.3.0' }
+177 verbose cache add [ 'path-to-regexp@0.1.3', null ]
+178 verbose cache add name=undefined spec="path-to-regexp@0.1.3" args=["path-to-regexp@0.1.3",null]
+179 verbose parsed url { protocol: null,
+179 verbose parsed url   slashes: null,
+179 verbose parsed url   auth: null,
+179 verbose parsed url   host: null,
+179 verbose parsed url   port: null,
+179 verbose parsed url   hostname: null,
+179 verbose parsed url   hash: null,
+179 verbose parsed url   search: null,
+179 verbose parsed url   query: null,
+179 verbose parsed url   pathname: 'path-to-regexp@0.1.3',
+179 verbose parsed url   path: 'path-to-regexp@0.1.3',
+179 verbose parsed url   href: 'path-to-regexp@0.1.3' }
+180 verbose cache add [ 'proxy-addr@~1.0.6', null ]
+181 verbose cache add name=undefined spec="proxy-addr@~1.0.6" args=["proxy-addr@~1.0.6",null]
+182 verbose parsed url { protocol: null,
+182 verbose parsed url   slashes: null,
+182 verbose parsed url   auth: null,
+182 verbose parsed url   host: null,
+182 verbose parsed url   port: null,
+182 verbose parsed url   hostname: null,
+182 verbose parsed url   hash: null,
+182 verbose parsed url   search: null,
+182 verbose parsed url   query: null,
+182 verbose parsed url   pathname: 'proxy-addr@~1.0.6',
+182 verbose parsed url   path: 'proxy-addr@~1.0.6',
+182 verbose parsed url   href: 'proxy-addr@~1.0.6' }
+183 verbose cache add [ 'qs@2.3.3', null ]
+184 verbose cache add name=undefined spec="qs@2.3.3" args=["qs@2.3.3",null]
+185 verbose parsed url { protocol: null,
+185 verbose parsed url   slashes: null,
+185 verbose parsed url   auth: null,
+185 verbose parsed url   host: null,
+185 verbose parsed url   port: null,
+185 verbose parsed url   hostname: null,
+185 verbose parsed url   hash: null,
+185 verbose parsed url   search: null,
+185 verbose parsed url   query: null,
+185 verbose parsed url   pathname: 'qs@2.3.3',
+185 verbose parsed url   path: 'qs@2.3.3',
+185 verbose parsed url   href: 'qs@2.3.3' }
+186 verbose cache add [ 'range-parser@~1.0.2', null ]
+187 verbose cache add name=undefined spec="range-parser@~1.0.2" args=["range-parser@~1.0.2",null]
+188 verbose parsed url { protocol: null,
+188 verbose parsed url   slashes: null,
+188 verbose parsed url   auth: null,
+188 verbose parsed url   host: null,
+188 verbose parsed url   port: null,
+188 verbose parsed url   hostname: null,
+188 verbose parsed url   hash: null,
+188 verbose parsed url   search: null,
+188 verbose parsed url   query: null,
+188 verbose parsed url   pathname: 'range-parser@~1.0.2',
+188 verbose parsed url   path: 'range-parser@~1.0.2',
+188 verbose parsed url   href: 'range-parser@~1.0.2' }
+189 verbose cache add name="media-typer" spec="0.3.0" args=["media-typer","0.3.0"]
+190 verbose parsed url { protocol: null,
+190 verbose parsed url   slashes: null,
+190 verbose parsed url   auth: null,
+190 verbose parsed url   host: null,
+190 verbose parsed url   port: null,
+190 verbose parsed url   hostname: null,
+190 verbose parsed url   hash: null,
+190 verbose parsed url   search: null,
+190 verbose parsed url   query: null,
+190 verbose parsed url   pathname: '0.3.0',
+190 verbose parsed url   path: '0.3.0',
+190 verbose parsed url   href: '0.3.0' }
+191 verbose addNamed [ 'media-typer', '0.3.0' ]
+192 verbose addNamed [ '0.3.0', '0.3.0' ]
+193 silly lockFile a6fc3981-media-typer-0-3-0 media-typer@0.3.0
+194 verbose lock media-typer@0.3.0 /Users/emmanuelmong/.npm/a6fc3981-media-typer-0-3-0.lock
+195 verbose cache add name="methods" spec="~1.1.1" args=["methods","~1.1.1"]
+196 verbose parsed url { protocol: null,
+196 verbose parsed url   slashes: null,
+196 verbose parsed url   auth: null,
+196 verbose parsed url   host: null,
+196 verbose parsed url   port: null,
+196 verbose parsed url   hostname: null,
+196 verbose parsed url   hash: null,
+196 verbose parsed url   search: null,
+196 verbose parsed url   query: null,
+196 verbose parsed url   pathname: '~1.1.1',
+196 verbose parsed url   path: '~1.1.1',
+196 verbose parsed url   href: '~1.1.1' }
+197 verbose addNamed [ 'methods', '~1.1.1' ]
+198 verbose addNamed [ null, '>=1.1.1-0 <1.2.0-0' ]
+199 silly lockFile 8f4b0360-methods-1-1-1 methods@~1.1.1
+200 verbose lock methods@~1.1.1 /Users/emmanuelmong/.npm/8f4b0360-methods-1-1-1.lock
+201 verbose cache add name="on-finished" spec="~2.2.0" args=["on-finished","~2.2.0"]
+202 verbose parsed url { protocol: null,
+202 verbose parsed url   slashes: null,
+202 verbose parsed url   auth: null,
+202 verbose parsed url   host: null,
+202 verbose parsed url   port: null,
+202 verbose parsed url   hostname: null,
+202 verbose parsed url   hash: null,
+202 verbose parsed url   search: null,
+202 verbose parsed url   query: null,
+202 verbose parsed url   pathname: '~2.2.0',
+202 verbose parsed url   path: '~2.2.0',
+202 verbose parsed url   href: '~2.2.0' }
+203 verbose addNamed [ 'on-finished', '~2.2.0' ]
+204 verbose addNamed [ null, '>=2.2.0-0 <2.3.0-0' ]
+205 silly lockFile b6397592-on-finished-2-2-0 on-finished@~2.2.0
+206 verbose lock on-finished@~2.2.0 /Users/emmanuelmong/.npm/b6397592-on-finished-2-2-0.lock
+207 verbose cache add name="parseurl" spec="~1.3.0" args=["parseurl","~1.3.0"]
+208 verbose parsed url { protocol: null,
+208 verbose parsed url   slashes: null,
+208 verbose parsed url   auth: null,
+208 verbose parsed url   host: null,
+208 verbose parsed url   port: null,
+208 verbose parsed url   hostname: null,
+208 verbose parsed url   hash: null,
+208 verbose parsed url   search: null,
+208 verbose parsed url   query: null,
+208 verbose parsed url   pathname: '~1.3.0',
+208 verbose parsed url   path: '~1.3.0',
+208 verbose parsed url   href: '~1.3.0' }
+209 verbose addNamed [ 'parseurl', '~1.3.0' ]
+210 verbose addNamed [ null, '>=1.3.0-0 <1.4.0-0' ]
+211 silly lockFile 24650040-parseurl-1-3-0 parseurl@~1.3.0
+212 verbose lock parseurl@~1.3.0 /Users/emmanuelmong/.npm/24650040-parseurl-1-3-0.lock
+213 verbose cache add name="path-to-regexp" spec="0.1.3" args=["path-to-regexp","0.1.3"]
+214 verbose parsed url { protocol: null,
+214 verbose parsed url   slashes: null,
+214 verbose parsed url   auth: null,
+214 verbose parsed url   host: null,
+214 verbose parsed url   port: null,
+214 verbose parsed url   hostname: null,
+214 verbose parsed url   hash: null,
+214 verbose parsed url   search: null,
+214 verbose parsed url   query: null,
+214 verbose parsed url   pathname: '0.1.3',
+214 verbose parsed url   path: '0.1.3',
+214 verbose parsed url   href: '0.1.3' }
+215 verbose addNamed [ 'path-to-regexp', '0.1.3' ]
+216 verbose addNamed [ '0.1.3', '0.1.3' ]
+217 silly lockFile e50af523-path-to-regexp-0-1-3 path-to-regexp@0.1.3
+218 verbose lock path-to-regexp@0.1.3 /Users/emmanuelmong/.npm/e50af523-path-to-regexp-0-1-3.lock
+219 verbose cache add name="proxy-addr" spec="~1.0.6" args=["proxy-addr","~1.0.6"]
+220 verbose parsed url { protocol: null,
+220 verbose parsed url   slashes: null,
+220 verbose parsed url   auth: null,
+220 verbose parsed url   host: null,
+220 verbose parsed url   port: null,
+220 verbose parsed url   hostname: null,
+220 verbose parsed url   hash: null,
+220 verbose parsed url   search: null,
+220 verbose parsed url   query: null,
+220 verbose parsed url   pathname: '~1.0.6',
+220 verbose parsed url   path: '~1.0.6',
+220 verbose parsed url   href: '~1.0.6' }
+221 verbose addNamed [ 'proxy-addr', '~1.0.6' ]
+222 verbose addNamed [ null, '>=1.0.6-0 <1.1.0-0' ]
+223 silly lockFile 4285468d-proxy-addr-1-0-6 proxy-addr@~1.0.6
+224 verbose lock proxy-addr@~1.0.6 /Users/emmanuelmong/.npm/4285468d-proxy-addr-1-0-6.lock
+225 verbose cache add name="qs" spec="2.3.3" args=["qs","2.3.3"]
+226 verbose parsed url { protocol: null,
+226 verbose parsed url   slashes: null,
+226 verbose parsed url   auth: null,
+226 verbose parsed url   host: null,
+226 verbose parsed url   port: null,
+226 verbose parsed url   hostname: null,
+226 verbose parsed url   hash: null,
+226 verbose parsed url   search: null,
+226 verbose parsed url   query: null,
+226 verbose parsed url   pathname: '2.3.3',
+226 verbose parsed url   path: '2.3.3',
+226 verbose parsed url   href: '2.3.3' }
+227 verbose addNamed [ 'qs', '2.3.3' ]
+228 verbose addNamed [ '2.3.3', '2.3.3' ]
+229 silly lockFile 91f8f145-qs-2-3-3 qs@2.3.3
+230 verbose lock qs@2.3.3 /Users/emmanuelmong/.npm/91f8f145-qs-2-3-3.lock
+231 verbose cache add [ 'send@0.11.1', null ]
+232 verbose cache add name=undefined spec="send@0.11.1" args=["send@0.11.1",null]
+233 verbose parsed url { protocol: null,
+233 verbose parsed url   slashes: null,
+233 verbose parsed url   auth: null,
+233 verbose parsed url   host: null,
+233 verbose parsed url   port: null,
+233 verbose parsed url   hostname: null,
+233 verbose parsed url   hash: null,
+233 verbose parsed url   search: null,
+233 verbose parsed url   query: null,
+233 verbose parsed url   pathname: 'send@0.11.1',
+233 verbose parsed url   path: 'send@0.11.1',
+233 verbose parsed url   href: 'send@0.11.1' }
+234 verbose cache add [ 'serve-static@~1.8.1', null ]
+235 verbose cache add name=undefined spec="serve-static@~1.8.1" args=["serve-static@~1.8.1",null]
+236 verbose parsed url { protocol: null,
+236 verbose parsed url   slashes: null,
+236 verbose parsed url   auth: null,
+236 verbose parsed url   host: null,
+236 verbose parsed url   port: null,
+236 verbose parsed url   hostname: null,
+236 verbose parsed url   hash: null,
+236 verbose parsed url   search: null,
+236 verbose parsed url   query: null,
+236 verbose parsed url   pathname: 'serve-static@~1.8.1',
+236 verbose parsed url   path: 'serve-static@~1.8.1',
+236 verbose parsed url   href: 'serve-static@~1.8.1' }
+237 verbose cache add name="range-parser" spec="~1.0.2" args=["range-parser","~1.0.2"]
+238 verbose parsed url { protocol: null,
+238 verbose parsed url   slashes: null,
+238 verbose parsed url   auth: null,
+238 verbose parsed url   host: null,
+238 verbose parsed url   port: null,
+238 verbose parsed url   hostname: null,
+238 verbose parsed url   hash: null,
+238 verbose parsed url   search: null,
+238 verbose parsed url   query: null,
+238 verbose parsed url   pathname: '~1.0.2',
+238 verbose parsed url   path: '~1.0.2',
+238 verbose parsed url   href: '~1.0.2' }
+239 verbose addNamed [ 'range-parser', '~1.0.2' ]
+240 verbose addNamed [ null, '>=1.0.2-0 <1.1.0-0' ]
+241 silly lockFile 0415ce7e-range-parser-1-0-2 range-parser@~1.0.2
+242 verbose lock range-parser@~1.0.2 /Users/emmanuelmong/.npm/0415ce7e-range-parser-1-0-2.lock
+243 verbose request where is /debug
+244 verbose request registry https://registry.npmjs.org/
+245 verbose url raw /debug
+246 verbose url resolving [ 'https://registry.npmjs.org/', './debug' ]
+247 verbose url resolved https://registry.npmjs.org/debug
+248 verbose request where is https://registry.npmjs.org/debug
+249 info trying registry request attempt 1 at 20:17:46
+250 verbose etag "BS4OCK22WG0AC03R3ALDY0LMH"
+251 http GET https://registry.npmjs.org/debug
+252 verbose request where is /depd
+253 verbose request registry https://registry.npmjs.org/
+254 verbose url raw /depd
+255 verbose url resolving [ 'https://registry.npmjs.org/', './depd' ]
+256 verbose url resolved https://registry.npmjs.org/depd
+257 verbose request where is https://registry.npmjs.org/depd
+258 info trying registry request attempt 1 at 20:17:46
+259 verbose etag "ENB84COVXHZD3E6ISMCBNWGSU"
+260 http GET https://registry.npmjs.org/depd
+261 verbose cache add name="send" spec="0.11.1" args=["send","0.11.1"]
+262 verbose parsed url { protocol: null,
+262 verbose parsed url   slashes: null,
+262 verbose parsed url   auth: null,
+262 verbose parsed url   host: null,
+262 verbose parsed url   port: null,
+262 verbose parsed url   hostname: null,
+262 verbose parsed url   hash: null,
+262 verbose parsed url   search: null,
+262 verbose parsed url   query: null,
+262 verbose parsed url   pathname: '0.11.1',
+262 verbose parsed url   path: '0.11.1',
+262 verbose parsed url   href: '0.11.1' }
+263 verbose addNamed [ 'send', '0.11.1' ]
+264 verbose addNamed [ '0.11.1', '0.11.1' ]
+265 silly lockFile f70f847f-send-0-11-1 send@0.11.1
+266 verbose lock send@0.11.1 /Users/emmanuelmong/.npm/f70f847f-send-0-11-1.lock
+267 verbose cache add [ 'type-is@~1.5.6', null ]
+268 verbose cache add name=undefined spec="type-is@~1.5.6" args=["type-is@~1.5.6",null]
+269 verbose parsed url { protocol: null,
+269 verbose parsed url   slashes: null,
+269 verbose parsed url   auth: null,
+269 verbose parsed url   host: null,
+269 verbose parsed url   port: null,
+269 verbose parsed url   hostname: null,
+269 verbose parsed url   hash: null,
+269 verbose parsed url   search: null,
+269 verbose parsed url   query: null,
+269 verbose parsed url   pathname: 'type-is@~1.5.6',
+269 verbose parsed url   path: 'type-is@~1.5.6',
+269 verbose parsed url   href: 'type-is@~1.5.6' }
+270 verbose cache add [ 'vary@~1.0.0', null ]
+271 verbose cache add name=undefined spec="vary@~1.0.0" args=["vary@~1.0.0",null]
+272 verbose parsed url { protocol: null,
+272 verbose parsed url   slashes: null,
+272 verbose parsed url   auth: null,
+272 verbose parsed url   host: null,
+272 verbose parsed url   port: null,
+272 verbose parsed url   hostname: null,
+272 verbose parsed url   hash: null,
+272 verbose parsed url   search: null,
+272 verbose parsed url   query: null,
+272 verbose parsed url   pathname: 'vary@~1.0.0',
+272 verbose parsed url   path: 'vary@~1.0.0',
+272 verbose parsed url   href: 'vary@~1.0.0' }
+273 verbose cache add [ 'cookie@0.1.2', null ]
+274 verbose cache add name=undefined spec="cookie@0.1.2" args=["cookie@0.1.2",null]
+275 verbose parsed url { protocol: null,
+275 verbose parsed url   slashes: null,
+275 verbose parsed url   auth: null,
+275 verbose parsed url   host: null,
+275 verbose parsed url   port: null,
+275 verbose parsed url   hostname: null,
+275 verbose parsed url   hash: null,
+275 verbose parsed url   search: null,
+275 verbose parsed url   query: null,
+275 verbose parsed url   pathname: 'cookie@0.1.2',
+275 verbose parsed url   path: 'cookie@0.1.2',
+275 verbose parsed url   href: 'cookie@0.1.2' }
+276 verbose cache add [ 'merge-descriptors@0.0.2', null ]
+277 verbose cache add name=undefined spec="merge-descriptors@0.0.2" args=["merge-descriptors@0.0.2",null]
+278 verbose parsed url { protocol: null,
+278 verbose parsed url   slashes: null,
+278 verbose parsed url   auth: null,
+278 verbose parsed url   host: null,
+278 verbose parsed url   port: null,
+278 verbose parsed url   hostname: null,
+278 verbose parsed url   hash: null,
+278 verbose parsed url   search: null,
+278 verbose parsed url   query: null,
+278 verbose parsed url   pathname: 'merge-descriptors@0.0.2',
+278 verbose parsed url   path: 'merge-descriptors@0.0.2',
+278 verbose parsed url   href: 'merge-descriptors@0.0.2' }
+279 verbose cache add [ 'utils-merge@1.0.0', null ]
+280 verbose cache add name=undefined spec="utils-merge@1.0.0" args=["utils-merge@1.0.0",null]
+281 verbose parsed url { protocol: null,
+281 verbose parsed url   slashes: null,
+281 verbose parsed url   auth: null,
+281 verbose parsed url   host: null,
+281 verbose parsed url   port: null,
+281 verbose parsed url   hostname: null,
+281 verbose parsed url   hash: null,
+281 verbose parsed url   search: null,
+281 verbose parsed url   query: null,
+281 verbose parsed url   pathname: 'utils-merge@1.0.0',
+281 verbose parsed url   path: 'utils-merge@1.0.0',
+281 verbose parsed url   href: 'utils-merge@1.0.0' }
+282 verbose cache add [ 'accepts@~1.2.3', null ]
+283 verbose cache add name=undefined spec="accepts@~1.2.3" args=["accepts@~1.2.3",null]
+284 verbose parsed url { protocol: null,
+284 verbose parsed url   slashes: null,
+284 verbose parsed url   auth: null,
+284 verbose parsed url   host: null,
+284 verbose parsed url   port: null,
+284 verbose parsed url   hostname: null,
+284 verbose parsed url   hash: null,
+284 verbose parsed url   search: null,
+284 verbose parsed url   query: null,
+284 verbose parsed url   pathname: 'accepts@~1.2.3',
+284 verbose parsed url   path: 'accepts@~1.2.3',
+284 verbose parsed url   href: 'accepts@~1.2.3' }
+285 verbose cache add [ 'content-disposition@0.5.0', null ]
+286 verbose cache add name=undefined spec="content-disposition@0.5.0" args=["content-disposition@0.5.0",null]
+287 verbose parsed url { protocol: null,
+287 verbose parsed url   slashes: null,
+287 verbose parsed url   auth: null,
+287 verbose parsed url   host: null,
+287 verbose parsed url   port: null,
+287 verbose parsed url   hostname: null,
+287 verbose parsed url   hash: null,
+287 verbose parsed url   search: null,
+287 verbose parsed url   query: null,
+287 verbose parsed url   pathname: 'content-disposition@0.5.0',
+287 verbose parsed url   path: 'content-disposition@0.5.0',
+287 verbose parsed url   href: 'content-disposition@0.5.0' }
+288 verbose cache add name="serve-static" spec="~1.8.1" args=["serve-static","~1.8.1"]
+289 verbose parsed url { protocol: null,
+289 verbose parsed url   slashes: null,
+289 verbose parsed url   auth: null,
+289 verbose parsed url   host: null,
+289 verbose parsed url   port: null,
+289 verbose parsed url   hostname: null,
+289 verbose parsed url   hash: null,
+289 verbose parsed url   search: null,
+289 verbose parsed url   query: null,
+289 verbose parsed url   pathname: '~1.8.1',
+289 verbose parsed url   path: '~1.8.1',
+289 verbose parsed url   href: '~1.8.1' }
+290 verbose addNamed [ 'serve-static', '~1.8.1' ]
+291 verbose addNamed [ null, '>=1.8.1-0 <1.9.0-0' ]
+292 silly lockFile 0f0e3efb-serve-static-1-8-1 serve-static@~1.8.1
+293 verbose lock serve-static@~1.8.1 /Users/emmanuelmong/.npm/0f0e3efb-serve-static-1-8-1.lock
+294 verbose request where is /escape-html
+295 verbose request registry https://registry.npmjs.org/
+296 verbose url raw /escape-html
+297 verbose url resolving [ 'https://registry.npmjs.org/', './escape-html' ]
+298 verbose url resolved https://registry.npmjs.org/escape-html
+299 verbose request where is https://registry.npmjs.org/escape-html
+300 info trying registry request attempt 1 at 20:17:46
+301 verbose etag "DBKWIFJZD6PKSB0SZD5ER2KSN"
+302 http GET https://registry.npmjs.org/escape-html
+303 silly addNameRange { name: 'methods', range: '>=1.1.1-0 <1.2.0-0', hasData: false }
+304 silly addNameRange { name: 'on-finished',
+304 silly addNameRange   range: '>=2.2.0-0 <2.3.0-0',
+304 silly addNameRange   hasData: false }
+305 silly addNameRange { name: 'parseurl', range: '>=1.3.0-0 <1.4.0-0', hasData: false }
+306 silly addNameRange { name: 'proxy-addr',
+306 silly addNameRange   range: '>=1.0.6-0 <1.1.0-0',
+306 silly addNameRange   hasData: false }
+307 verbose cache add name="type-is" spec="~1.5.6" args=["type-is","~1.5.6"]
+308 verbose parsed url { protocol: null,
+308 verbose parsed url   slashes: null,
+308 verbose parsed url   auth: null,
+308 verbose parsed url   host: null,
+308 verbose parsed url   port: null,
+308 verbose parsed url   hostname: null,
+308 verbose parsed url   hash: null,
+308 verbose parsed url   search: null,
+308 verbose parsed url   query: null,
+308 verbose parsed url   pathname: '~1.5.6',
+308 verbose parsed url   path: '~1.5.6',
+308 verbose parsed url   href: '~1.5.6' }
+309 verbose addNamed [ 'type-is', '~1.5.6' ]
+310 verbose addNamed [ null, '>=1.5.6-0 <1.6.0-0' ]
+311 silly lockFile 9a18b765-type-is-1-5-6 type-is@~1.5.6
+312 verbose lock type-is@~1.5.6 /Users/emmanuelmong/.npm/9a18b765-type-is-1-5-6.lock
+313 verbose cache add name="vary" spec="~1.0.0" args=["vary","~1.0.0"]
+314 verbose parsed url { protocol: null,
+314 verbose parsed url   slashes: null,
+314 verbose parsed url   auth: null,
+314 verbose parsed url   host: null,
+314 verbose parsed url   port: null,
+314 verbose parsed url   hostname: null,
+314 verbose parsed url   hash: null,
+314 verbose parsed url   search: null,
+314 verbose parsed url   query: null,
+314 verbose parsed url   pathname: '~1.0.0',
+314 verbose parsed url   path: '~1.0.0',
+314 verbose parsed url   href: '~1.0.0' }
+315 verbose addNamed [ 'vary', '~1.0.0' ]
+316 verbose addNamed [ null, '>=1.0.0-0 <1.1.0-0' ]
+317 silly lockFile c36fce5f-vary-1-0-0 vary@~1.0.0
+318 verbose lock vary@~1.0.0 /Users/emmanuelmong/.npm/c36fce5f-vary-1-0-0.lock
+319 verbose cache add name="cookie" spec="0.1.2" args=["cookie","0.1.2"]
+320 verbose parsed url { protocol: null,
+320 verbose parsed url   slashes: null,
+320 verbose parsed url   auth: null,
+320 verbose parsed url   host: null,
+320 verbose parsed url   port: null,
+320 verbose parsed url   hostname: null,
+320 verbose parsed url   hash: null,
+320 verbose parsed url   search: null,
+320 verbose parsed url   query: null,
+320 verbose parsed url   pathname: '0.1.2',
+320 verbose parsed url   path: '0.1.2',
+320 verbose parsed url   href: '0.1.2' }
+321 verbose addNamed [ 'cookie', '0.1.2' ]
+322 verbose addNamed [ '0.1.2', '0.1.2' ]
+323 silly lockFile ccf606cf-cookie-0-1-2 cookie@0.1.2
+324 verbose lock cookie@0.1.2 /Users/emmanuelmong/.npm/ccf606cf-cookie-0-1-2.lock
+325 verbose cache add name="merge-descriptors" spec="0.0.2" args=["merge-descriptors","0.0.2"]
+326 verbose parsed url { protocol: null,
+326 verbose parsed url   slashes: null,
+326 verbose parsed url   auth: null,
+326 verbose parsed url   host: null,
+326 verbose parsed url   port: null,
+326 verbose parsed url   hostname: null,
+326 verbose parsed url   hash: null,
+326 verbose parsed url   search: null,
+326 verbose parsed url   query: null,
+326 verbose parsed url   pathname: '0.0.2',
+326 verbose parsed url   path: '0.0.2',
+326 verbose parsed url   href: '0.0.2' }
+327 verbose addNamed [ 'merge-descriptors', '0.0.2' ]
+328 verbose addNamed [ '0.0.2', '0.0.2' ]
+329 silly lockFile a8c24cc5-merge-descriptors-0-0-2 merge-descriptors@0.0.2
+330 verbose lock merge-descriptors@0.0.2 /Users/emmanuelmong/.npm/a8c24cc5-merge-descriptors-0-0-2.lock
+331 verbose cache add name="utils-merge" spec="1.0.0" args=["utils-merge","1.0.0"]
+332 verbose parsed url { protocol: null,
+332 verbose parsed url   slashes: null,
+332 verbose parsed url   auth: null,
+332 verbose parsed url   host: null,
+332 verbose parsed url   port: null,
+332 verbose parsed url   hostname: null,
+332 verbose parsed url   hash: null,
+332 verbose parsed url   search: null,
+332 verbose parsed url   query: null,
+332 verbose parsed url   pathname: '1.0.0',
+332 verbose parsed url   path: '1.0.0',
+332 verbose parsed url   href: '1.0.0' }
+333 verbose addNamed [ 'utils-merge', '1.0.0' ]
+334 verbose addNamed [ '1.0.0', '1.0.0' ]
+335 silly lockFile f563025b-utils-merge-1-0-0 utils-merge@1.0.0
+336 verbose lock utils-merge@1.0.0 /Users/emmanuelmong/.npm/f563025b-utils-merge-1-0-0.lock
+337 verbose cache add name="accepts" spec="~1.2.3" args=["accepts","~1.2.3"]
+338 verbose parsed url { protocol: null,
+338 verbose parsed url   slashes: null,
+338 verbose parsed url   auth: null,
+338 verbose parsed url   host: null,
+338 verbose parsed url   port: null,
+338 verbose parsed url   hostname: null,
+338 verbose parsed url   hash: null,
+338 verbose parsed url   search: null,
+338 verbose parsed url   query: null,
+338 verbose parsed url   pathname: '~1.2.3',
+338 verbose parsed url   path: '~1.2.3',
+338 verbose parsed url   href: '~1.2.3' }
+339 verbose addNamed [ 'accepts', '~1.2.3' ]
+340 verbose addNamed [ null, '>=1.2.3-0 <1.3.0-0' ]
+341 silly lockFile 00089ac7-accepts-1-2-3 accepts@~1.2.3
+342 verbose lock accepts@~1.2.3 /Users/emmanuelmong/.npm/00089ac7-accepts-1-2-3.lock
+343 verbose cache add name="content-disposition" spec="0.5.0" args=["content-disposition","0.5.0"]
+344 verbose parsed url { protocol: null,
+344 verbose parsed url   slashes: null,
+344 verbose parsed url   auth: null,
+344 verbose parsed url   host: null,
+344 verbose parsed url   port: null,
+344 verbose parsed url   hostname: null,
+344 verbose parsed url   hash: null,
+344 verbose parsed url   search: null,
+344 verbose parsed url   query: null,
+344 verbose parsed url   pathname: '0.5.0',
+344 verbose parsed url   path: '0.5.0',
+344 verbose parsed url   href: '0.5.0' }
+345 verbose addNamed [ 'content-disposition', '0.5.0' ]
+346 verbose addNamed [ '0.5.0', '0.5.0' ]
+347 silly lockFile b00a8781-content-disposition-0-5-0 content-disposition@0.5.0
+348 verbose lock content-disposition@0.5.0 /Users/emmanuelmong/.npm/b00a8781-content-disposition-0-5-0.lock
+349 silly addNameRange { name: 'range-parser',
+349 silly addNameRange   range: '>=1.0.2-0 <1.1.0-0',
+349 silly addNameRange   hasData: false }
+350 verbose request where is /etag
+351 verbose request registry https://registry.npmjs.org/
+352 verbose url raw /etag
+353 verbose url resolving [ 'https://registry.npmjs.org/', './etag' ]
+354 verbose url resolved https://registry.npmjs.org/etag
+355 verbose request where is https://registry.npmjs.org/etag
+356 info trying registry request attempt 1 at 20:17:46
+357 verbose etag "9OIRMRM2WLVQBU2XNST1SNE48"
+358 http GET https://registry.npmjs.org/etag
+359 silly addNameRange { name: 'serve-static',
+359 silly addNameRange   range: '>=1.8.1-0 <1.9.0-0',
+359 silly addNameRange   hasData: false }
+360 silly addNameRange { name: 'type-is', range: '>=1.5.6-0 <1.6.0-0', hasData: false }
+361 silly addNameRange { name: 'vary', range: '>=1.0.0-0 <1.1.0-0', hasData: false }
+362 silly addNameRange { name: 'accepts', range: '>=1.2.3-0 <1.3.0-0', hasData: false }
+363 verbose request where is /finalhandler
+364 verbose request registry https://registry.npmjs.org/
+365 verbose url raw /finalhandler
+366 verbose url resolving [ 'https://registry.npmjs.org/', './finalhandler' ]
+367 verbose url resolved https://registry.npmjs.org/finalhandler
+368 verbose request where is https://registry.npmjs.org/finalhandler
+369 info trying registry request attempt 1 at 20:17:46
+370 verbose etag "BHKNR6EE0GBJE7ABVFRDUJ7TT"
+371 http GET https://registry.npmjs.org/finalhandler
+372 verbose request where is /fresh
+373 verbose request registry https://registry.npmjs.org/
+374 verbose url raw /fresh
+375 verbose url resolving [ 'https://registry.npmjs.org/', './fresh' ]
+376 verbose url resolved https://registry.npmjs.org/fresh
+377 verbose request where is https://registry.npmjs.org/fresh
+378 info trying registry request attempt 1 at 20:17:46
+379 verbose etag "9AUUJ6LSW3ERCCQXBR1260QZ"
+380 http GET https://registry.npmjs.org/fresh
+381 verbose request where is /media-typer
+382 verbose request registry https://registry.npmjs.org/
+383 verbose url raw /media-typer
+384 verbose url resolving [ 'https://registry.npmjs.org/', './media-typer' ]
+385 verbose url resolved https://registry.npmjs.org/media-typer
+386 verbose request where is https://registry.npmjs.org/media-typer
+387 info trying registry request attempt 1 at 20:17:46
+388 verbose etag "65YVS6Y2O9F1JAASGT98G8VOQ"
+389 http GET https://registry.npmjs.org/media-typer
+390 verbose request where is /on-finished
+391 verbose request registry https://registry.npmjs.org/
+392 verbose url raw /on-finished
+393 verbose url resolving [ 'https://registry.npmjs.org/', './on-finished' ]
+394 verbose url resolved https://registry.npmjs.org/on-finished
+395 verbose request where is https://registry.npmjs.org/on-finished
+396 info trying registry request attempt 1 at 20:17:46
+397 verbose etag "4UQI39JQJ8NDMB20UQM8NJZ94"
+398 http GET https://registry.npmjs.org/on-finished
+399 verbose request where is /methods
+400 verbose request registry https://registry.npmjs.org/
+401 verbose url raw /methods
+402 verbose url resolving [ 'https://registry.npmjs.org/', './methods' ]
+403 verbose url resolved https://registry.npmjs.org/methods
+404 verbose request where is https://registry.npmjs.org/methods
+405 info trying registry request attempt 1 at 20:17:46
+406 verbose etag "BS11XNWSF00I074OITB0TFEXB"
+407 http GET https://registry.npmjs.org/methods
+408 verbose request where is /path-to-regexp
+409 verbose request registry https://registry.npmjs.org/
+410 verbose url raw /path-to-regexp
+411 verbose url resolving [ 'https://registry.npmjs.org/', './path-to-regexp' ]
+412 verbose url resolved https://registry.npmjs.org/path-to-regexp
+413 verbose request where is https://registry.npmjs.org/path-to-regexp
+414 info trying registry request attempt 1 at 20:17:46
+415 verbose etag "BMGDIQQRVFTQAQKWBOAPRTE2C"
+416 http GET https://registry.npmjs.org/path-to-regexp
+417 verbose request where is /parseurl
+418 verbose request registry https://registry.npmjs.org/
+419 verbose url raw /parseurl
+420 verbose url resolving [ 'https://registry.npmjs.org/', './parseurl' ]
+421 verbose url resolved https://registry.npmjs.org/parseurl
+422 verbose request where is https://registry.npmjs.org/parseurl
+423 info trying registry request attempt 1 at 20:17:46
+424 verbose etag "AQPAKALZJT938J4986FA62C6F"
+425 http GET https://registry.npmjs.org/parseurl
+426 verbose request where is /proxy-addr
+427 verbose request registry https://registry.npmjs.org/
+428 verbose url raw /proxy-addr
+429 verbose url resolving [ 'https://registry.npmjs.org/', './proxy-addr' ]
+430 verbose url resolved https://registry.npmjs.org/proxy-addr
+431 verbose request where is https://registry.npmjs.org/proxy-addr
+432 info trying registry request attempt 1 at 20:17:46
+433 verbose etag "CRDY9K7IWVWF4K2KY47X344TQ"
+434 http GET https://registry.npmjs.org/proxy-addr
+435 verbose request where is /qs
+436 verbose request registry https://registry.npmjs.org/
+437 verbose url raw /qs
+438 verbose url resolving [ 'https://registry.npmjs.org/', './qs' ]
+439 verbose url resolved https://registry.npmjs.org/qs
+440 verbose request where is https://registry.npmjs.org/qs
+441 info trying registry request attempt 1 at 20:17:46
+442 verbose etag "595UFMAXDL6YM5TICF7O3ATPD"
+443 http GET https://registry.npmjs.org/qs
+444 verbose request where is /range-parser
+445 verbose request registry https://registry.npmjs.org/
+446 verbose url raw /range-parser
+447 verbose url resolving [ 'https://registry.npmjs.org/', './range-parser' ]
+448 verbose url resolved https://registry.npmjs.org/range-parser
+449 verbose request where is https://registry.npmjs.org/range-parser
+450 info trying registry request attempt 1 at 20:17:46
+451 verbose etag "1LVOAIULBUH5H9S9EKSD35AIQ"
+452 http GET https://registry.npmjs.org/range-parser
+453 verbose request where is /send
+454 verbose request registry https://registry.npmjs.org/
+455 verbose url raw /send
+456 verbose url resolving [ 'https://registry.npmjs.org/', './send' ]
+457 verbose url resolved https://registry.npmjs.org/send
+458 verbose request where is https://registry.npmjs.org/send
+459 info trying registry request attempt 1 at 20:17:46
+460 verbose etag "56GVFS4N96CQ4V5HX28MNCNOT"
+461 http GET https://registry.npmjs.org/send
+462 verbose request where is /serve-static
+463 verbose request registry https://registry.npmjs.org/
+464 verbose url raw /serve-static
+465 verbose url resolving [ 'https://registry.npmjs.org/', './serve-static' ]
+466 verbose url resolved https://registry.npmjs.org/serve-static
+467 verbose request where is https://registry.npmjs.org/serve-static
+468 info trying registry request attempt 1 at 20:17:46
+469 verbose etag "AILYEB65S0CWNJDC45T2SBDOH"
+470 http GET https://registry.npmjs.org/serve-static
+471 verbose request where is /type-is
+472 verbose request registry https://registry.npmjs.org/
+473 verbose url raw /type-is
+474 verbose url resolving [ 'https://registry.npmjs.org/', './type-is' ]
+475 verbose url resolved https://registry.npmjs.org/type-is
+476 verbose request where is https://registry.npmjs.org/type-is
+477 info trying registry request attempt 1 at 20:17:46
+478 verbose etag "D2T4YU8HCDXRMIPTS3CVNXI84"
+479 http GET https://registry.npmjs.org/type-is
+480 verbose request where is /vary
+481 verbose request registry https://registry.npmjs.org/
+482 verbose url raw /vary
+483 verbose url resolving [ 'https://registry.npmjs.org/', './vary' ]
+484 verbose url resolved https://registry.npmjs.org/vary
+485 verbose request where is https://registry.npmjs.org/vary
+486 info trying registry request attempt 1 at 20:17:46
+487 verbose etag "9KURXIL7SZTSJYZGLSYBN6K21"
+488 http GET https://registry.npmjs.org/vary
+489 verbose request where is /cookie
+490 verbose request registry https://registry.npmjs.org/
+491 verbose url raw /cookie
+492 verbose url resolving [ 'https://registry.npmjs.org/', './cookie' ]
+493 verbose url resolved https://registry.npmjs.org/cookie
+494 verbose request where is https://registry.npmjs.org/cookie
+495 info trying registry request attempt 1 at 20:17:46
+496 verbose etag "CBBDD0OFS00LJG3VA1C80K1OX"
+497 http GET https://registry.npmjs.org/cookie
+498 verbose request where is /merge-descriptors
+499 verbose request registry https://registry.npmjs.org/
+500 verbose url raw /merge-descriptors
+501 verbose url resolving [ 'https://registry.npmjs.org/', './merge-descriptors' ]
+502 verbose url resolved https://registry.npmjs.org/merge-descriptors
+503 verbose request where is https://registry.npmjs.org/merge-descriptors
+504 info trying registry request attempt 1 at 20:17:46
+505 verbose etag "BCBAS32VH5H3K0A7MS1YWVXLR"
+506 http GET https://registry.npmjs.org/merge-descriptors
+507 verbose request where is /utils-merge
+508 verbose request registry https://registry.npmjs.org/
+509 verbose url raw /utils-merge
+510 verbose url resolving [ 'https://registry.npmjs.org/', './utils-merge' ]
+511 verbose url resolved https://registry.npmjs.org/utils-merge
+512 verbose request where is https://registry.npmjs.org/utils-merge
+513 info trying registry request attempt 1 at 20:17:46
+514 verbose etag "4BUO8JL6BMC9XZEDGDXY26XLL"
+515 http GET https://registry.npmjs.org/utils-merge
+516 verbose request where is /accepts
+517 verbose request registry https://registry.npmjs.org/
+518 verbose url raw /accepts
+519 verbose url resolving [ 'https://registry.npmjs.org/', './accepts' ]
+520 verbose url resolved https://registry.npmjs.org/accepts
+521 verbose request where is https://registry.npmjs.org/accepts
+522 info trying registry request attempt 1 at 20:17:46
+523 verbose etag "36D3VWNL6SI3TK0VDODN5HV91"
+524 http GET https://registry.npmjs.org/accepts
+525 verbose request where is /content-disposition
+526 verbose request registry https://registry.npmjs.org/
+527 verbose url raw /content-disposition
+528 verbose url resolving [ 'https://registry.npmjs.org/', './content-disposition' ]
+529 verbose url resolved https://registry.npmjs.org/content-disposition
+530 verbose request where is https://registry.npmjs.org/content-disposition
+531 info trying registry request attempt 1 at 20:17:46
+532 verbose etag "75L68MZ1SGGJH8MX2KIR2D2L"
+533 http GET https://registry.npmjs.org/content-disposition
+534 http 304 https://registry.npmjs.org/debug
+535 silly registry.get cb [ 304,
+535 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+535 silly registry.get     server: 'Apache',
+535 silly registry.get     via: '1.1 varnish',
+535 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+535 silly registry.get     'cache-control': 'max-age=60',
+535 silly registry.get     etag: '"BS4OCK22WG0AC03R3ALDY0LMH"',
+535 silly registry.get     age: '46',
+535 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+535 silly registry.get     'x-cache': 'HIT',
+535 silly registry.get     'x-cache-hits': '1',
+535 silly registry.get     'x-timer': 'S1423358266.659375,VS0,VE0',
+535 silly registry.get     vary: 'Accept',
+535 silly registry.get     'content-length': '0',
+535 silly registry.get     'keep-alive': 'timeout=10, max=50',
+535 silly registry.get     connection: 'Keep-Alive' } ]
+536 verbose etag https://registry.npmjs.org/debug from cache
+537 http 304 https://registry.npmjs.org/depd
+538 silly registry.get cb [ 304,
+538 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+538 silly registry.get     server: 'Apache',
+538 silly registry.get     via: '1.1 varnish',
+538 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+538 silly registry.get     'cache-control': 'max-age=60',
+538 silly registry.get     etag: '"ENB84COVXHZD3E6ISMCBNWGSU"',
+538 silly registry.get     age: '17',
+538 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+538 silly registry.get     'x-cache': 'HIT',
+538 silly registry.get     'x-cache-hits': '1',
+538 silly registry.get     'x-timer': 'S1423358266.658863,VS0,VE0',
+538 silly registry.get     vary: 'Accept',
+538 silly registry.get     'content-length': '0',
+538 silly registry.get     'keep-alive': 'timeout=10, max=50',
+538 silly registry.get     connection: 'Keep-Alive' } ]
+539 verbose etag https://registry.npmjs.org/depd from cache
+540 http 304 https://registry.npmjs.org/escape-html
+541 silly registry.get cb [ 304,
+541 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+541 silly registry.get     server: 'Apache',
+541 silly registry.get     via: '1.1 varnish',
+541 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+541 silly registry.get     'cache-control': 'max-age=60',
+541 silly registry.get     etag: '"DBKWIFJZD6PKSB0SZD5ER2KSN"',
+541 silly registry.get     age: '46',
+541 silly registry.get     'x-served-by': 'cache-iad2146-IAD',
+541 silly registry.get     'x-cache': 'HIT',
+541 silly registry.get     'x-cache-hits': '1',
+541 silly registry.get     'x-timer': 'S1423358266.662764,VS0,VE0',
+541 silly registry.get     vary: 'Accept',
+541 silly registry.get     'content-length': '0',
+541 silly registry.get     'keep-alive': 'timeout=10, max=50',
+541 silly registry.get     connection: 'Keep-Alive' } ]
+542 verbose etag https://registry.npmjs.org/escape-html from cache
+543 http 304 https://registry.npmjs.org/cookie-signature
+544 silly registry.get cb [ 304,
+544 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+544 silly registry.get     server: 'Apache',
+544 silly registry.get     via: '1.1 varnish',
+544 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+544 silly registry.get     'cache-control': 'max-age=60',
+544 silly registry.get     etag: '"3J0T5V9SPAWLHIPR0O07XHUBG"',
+544 silly registry.get     age: '36',
+544 silly registry.get     'x-served-by': 'cache-iad2139-IAD',
+544 silly registry.get     'x-cache': 'HIT',
+544 silly registry.get     'x-cache-hits': '1',
+544 silly registry.get     'x-timer': 'S1423358266.661833,VS0,VE0',
+544 silly registry.get     vary: 'Accept',
+544 silly registry.get     'content-length': '0',
+544 silly registry.get     'keep-alive': 'timeout=10, max=50',
+544 silly registry.get     connection: 'Keep-Alive' } ]
+545 verbose etag https://registry.npmjs.org/cookie-signature from cache
+546 silly addNameRange number 2 { name: 'debug', range: '>=2.1.1-0 <2.2.0-0', hasData: true }
+547 silly addNameRange versions [ 'debug',
+547 silly addNameRange   [ '0.0.1',
+547 silly addNameRange     '0.1.0',
+547 silly addNameRange     '0.2.0',
+547 silly addNameRange     '0.3.0',
+547 silly addNameRange     '0.4.0',
+547 silly addNameRange     '0.4.1',
+547 silly addNameRange     '0.5.0',
+547 silly addNameRange     '0.6.0',
+547 silly addNameRange     '0.7.0',
+547 silly addNameRange     '0.7.1',
+547 silly addNameRange     '0.7.2',
+547 silly addNameRange     '0.7.3',
+547 silly addNameRange     '0.7.4',
+547 silly addNameRange     '0.8.0',
+547 silly addNameRange     '0.8.1',
+547 silly addNameRange     '1.0.0',
+547 silly addNameRange     '1.0.1',
+547 silly addNameRange     '1.0.2',
+547 silly addNameRange     '1.0.3',
+547 silly addNameRange     '1.0.4',
+547 silly addNameRange     '2.0.0',
+547 silly addNameRange     '2.1.0',
+547 silly addNameRange     '2.1.1' ] ]
+548 verbose addNamed [ 'debug', '2.1.1' ]
+549 verbose addNamed [ '2.1.1', '2.1.1' ]
+550 silly lockFile 656b33b7-debug-2-1-1 debug@2.1.1
+551 verbose lock debug@2.1.1 /Users/emmanuelmong/.npm/656b33b7-debug-2-1-1.lock
+552 silly addNameRange number 2 { name: 'depd', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+553 silly addNameRange versions [ 'depd',
+553 silly addNameRange   [ '0.0.0',
+553 silly addNameRange     '0.0.1',
+553 silly addNameRange     '0.1.0',
+553 silly addNameRange     '0.2.0',
+553 silly addNameRange     '0.3.0',
+553 silly addNameRange     '0.4.0',
+553 silly addNameRange     '0.4.1',
+553 silly addNameRange     '0.4.2',
+553 silly addNameRange     '0.4.3',
+553 silly addNameRange     '0.4.4',
+553 silly addNameRange     '0.4.5',
+553 silly addNameRange     '1.0.0' ] ]
+554 verbose addNamed [ 'depd', '1.0.0' ]
+555 verbose addNamed [ '1.0.0', '1.0.0' ]
+556 silly lockFile ec0b68a3-depd-1-0-0 depd@1.0.0
+557 verbose lock depd@1.0.0 /Users/emmanuelmong/.npm/ec0b68a3-depd-1-0-0.lock
+558 silly lockFile 84d6dac9--npmjs-org-debug-debug-2-1-1-tgz https://registry.npmjs.org/debug/-/debug-2.1.1.tgz
+559 verbose lock https://registry.npmjs.org/debug/-/debug-2.1.1.tgz /Users/emmanuelmong/.npm/84d6dac9--npmjs-org-debug-debug-2-1-1-tgz.lock
+560 silly lockFile 5df7ea91-ature-cookie-signature-1-0-5-tgz https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz
+561 verbose lock https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz /Users/emmanuelmong/.npm/5df7ea91-ature-cookie-signature-1-0-5-tgz.lock
+562 http 304 https://registry.npmjs.org/finalhandler
+563 silly registry.get cb [ 304,
+563 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+563 silly registry.get     server: 'Apache',
+563 silly registry.get     via: '1.1 varnish',
+563 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:10 GMT',
+563 silly registry.get     'cache-control': 'max-age=60',
+563 silly registry.get     etag: '"BHKNR6EE0GBJE7ABVFRDUJ7TT"',
+563 silly registry.get     age: '36',
+563 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+563 silly registry.get     'x-cache': 'HIT',
+563 silly registry.get     'x-cache-hits': '2',
+563 silly registry.get     'x-timer': 'S1423358266.675157,VS0,VE0',
+563 silly registry.get     vary: 'Accept',
+563 silly registry.get     'content-length': '0',
+563 silly registry.get     'keep-alive': 'timeout=10, max=49',
+563 silly registry.get     connection: 'Keep-Alive' } ]
+564 verbose etag https://registry.npmjs.org/finalhandler from cache
+565 silly lockFile c12a3e0e-ry-npmjs-org-depd-depd-1-0-0-tgz https://registry.npmjs.org/depd/-/depd-1.0.0.tgz
+566 verbose lock https://registry.npmjs.org/depd/-/depd-1.0.0.tgz /Users/emmanuelmong/.npm/c12a3e0e-ry-npmjs-org-depd-depd-1-0-0-tgz.lock
+567 verbose addRemoteTarball [ 'https://registry.npmjs.org/debug/-/debug-2.1.1.tgz',
+567 verbose addRemoteTarball   'e0c548cc607adc22b537540dc3639c4236fdf90c' ]
+568 verbose addRemoteTarball [ 'https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz',
+568 verbose addRemoteTarball   'a122e3f1503eca0f5355795b0711bb2368d450f9' ]
+569 silly lockFile 1b73425a-escape-html-1-0-1 escape-html@1.0.1
+570 silly lockFile 1b73425a-escape-html-1-0-1 escape-html@1.0.1
+571 verbose addRemoteTarball [ 'https://registry.npmjs.org/depd/-/depd-1.0.0.tgz',
+571 verbose addRemoteTarball   '2fda0d00e98aae2845d4991ab1bf1f2a199073d5' ]
+572 info retry fetch attempt 1 at 20:17:46
+573 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz
+574 silly lockFile a9f051ee-alhandler-finalhandler-0-3-3-tgz https://registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz
+575 verbose lock https://registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz /Users/emmanuelmong/.npm/a9f051ee-alhandler-finalhandler-0-3-3-tgz.lock
+576 http 304 https://registry.npmjs.org/fresh
+577 silly registry.get cb [ 304,
+577 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+577 silly registry.get     server: 'Apache',
+577 silly registry.get     via: '1.1 varnish',
+577 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+577 silly registry.get     'cache-control': 'max-age=60',
+577 silly registry.get     etag: '"9AUUJ6LSW3ERCCQXBR1260QZ"',
+577 silly registry.get     age: '36',
+577 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+577 silly registry.get     'x-cache': 'HIT',
+577 silly registry.get     'x-cache-hits': '1',
+577 silly registry.get     'x-timer': 'S1423358266.679835,VS0,VE0',
+577 silly registry.get     vary: 'Accept',
+577 silly registry.get     'content-length': '0',
+577 silly registry.get     'keep-alive': 'timeout=10, max=49',
+577 silly registry.get     connection: 'Keep-Alive' } ]
+578 verbose etag https://registry.npmjs.org/fresh from cache
+579 info retry fetch attempt 1 at 20:17:46
+580 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/debug/-/debug-2.1.1.tgz
+581 info retry fetch attempt 1 at 20:17:46
+582 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/depd/-/depd-1.0.0.tgz
+583 http GET https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz
+584 verbose addRemoteTarball [ 'https://registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz',
+584 verbose addRemoteTarball   'b1a09aa1e6a607b3541669b09bcb727f460cd426' ]
+585 http GET https://registry.npmjs.org/debug/-/debug-2.1.1.tgz
+586 http 304 https://registry.npmjs.org/media-typer
+587 silly registry.get cb [ 304,
+587 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+587 silly registry.get     server: 'Apache',
+587 silly registry.get     via: '1.1 varnish',
+587 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+587 silly registry.get     'cache-control': 'max-age=60',
+587 silly registry.get     etag: '"65YVS6Y2O9F1JAASGT98G8VOQ"',
+587 silly registry.get     age: '3',
+587 silly registry.get     'x-served-by': 'cache-iad2146-IAD',
+587 silly registry.get     'x-cache': 'HIT',
+587 silly registry.get     'x-cache-hits': '1',
+587 silly registry.get     'x-timer': 'S1423358266.681456,VS0,VE0',
+587 silly registry.get     vary: 'Accept',
+587 silly registry.get     'content-length': '0',
+587 silly registry.get     'keep-alive': 'timeout=10, max=49',
+587 silly registry.get     connection: 'Keep-Alive' } ]
+588 verbose etag https://registry.npmjs.org/media-typer from cache
+589 http GET https://registry.npmjs.org/depd/-/depd-1.0.0.tgz
+590 http 304 https://registry.npmjs.org/etag
+591 silly registry.get cb [ 304,
+591 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+591 silly registry.get     server: 'Apache',
+591 silly registry.get     via: '1.1 varnish',
+591 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+591 silly registry.get     'cache-control': 'max-age=60',
+591 silly registry.get     etag: '"9OIRMRM2WLVQBU2XNST1SNE48"',
+591 silly registry.get     age: '0',
+591 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+591 silly registry.get     'x-cache': 'HIT',
+591 silly registry.get     'x-cache-hits': '1',
+591 silly registry.get     'x-timer': 'S1423358266.666020,VS0,VE19',
+591 silly registry.get     vary: 'Accept',
+591 silly registry.get     'content-length': '0',
+591 silly registry.get     'keep-alive': 'timeout=10, max=50',
+591 silly registry.get     connection: 'Keep-Alive' } ]
+592 verbose etag https://registry.npmjs.org/etag from cache
+593 info retry fetch attempt 1 at 20:17:46
+594 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz
+595 http 304 https://registry.npmjs.org/methods
+596 silly registry.get cb [ 304,
+596 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+596 silly registry.get     server: 'Apache',
+596 silly registry.get     via: '1.1 varnish',
+596 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+596 silly registry.get     'cache-control': 'max-age=60',
+596 silly registry.get     etag: '"BS11XNWSF00I074OITB0TFEXB"',
+596 silly registry.get     age: '3',
+596 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+596 silly registry.get     'x-cache': 'HIT',
+596 silly registry.get     'x-cache-hits': '1',
+596 silly registry.get     'x-timer': 'S1423358266.691764,VS0,VE0',
+596 silly registry.get     vary: 'Accept',
+596 silly registry.get     'content-length': '0',
+596 silly registry.get     'keep-alive': 'timeout=10, max=48',
+596 silly registry.get     connection: 'Keep-Alive' } ]
+597 verbose etag https://registry.npmjs.org/methods from cache
+598 http GET https://registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz
+599 silly lockFile 98df787d--npmjs-org-fresh-fresh-0-2-4-tgz https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz
+600 verbose lock https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz /Users/emmanuelmong/.npm/98df787d--npmjs-org-fresh-fresh-0-2-4-tgz.lock
+601 http 304 https://registry.npmjs.org/path-to-regexp
+602 silly registry.get cb [ 304,
+602 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+602 silly registry.get     server: 'Apache',
+602 silly registry.get     via: '1.1 varnish',
+602 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+602 silly registry.get     'cache-control': 'max-age=60',
+602 silly registry.get     etag: '"BMGDIQQRVFTQAQKWBOAPRTE2C"',
+602 silly registry.get     age: '3',
+602 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+602 silly registry.get     'x-cache': 'HIT',
+602 silly registry.get     'x-cache-hits': '1',
+602 silly registry.get     'x-timer': 'S1423358266.695088,VS0,VE0',
+602 silly registry.get     vary: 'Accept',
+602 silly registry.get     'content-length': '0',
+602 silly registry.get     'keep-alive': 'timeout=10, max=48',
+602 silly registry.get     connection: 'Keep-Alive' } ]
+603 verbose etag https://registry.npmjs.org/path-to-regexp from cache
+604 verbose addRemoteTarball [ 'https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz',
+604 verbose addRemoteTarball   '3582499206c9723714190edd74b4604feb4a614c' ]
+605 silly lockFile efa8791a-edia-typer-media-typer-0-3-0-tgz https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz
+606 verbose lock https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz /Users/emmanuelmong/.npm/efa8791a-edia-typer-media-typer-0-3-0-tgz.lock
+607 silly addNameRange number 2 { name: 'etag', range: '>=1.5.1-0 <1.6.0-0', hasData: true }
+608 silly addNameRange versions [ 'etag',
+608 silly addNameRange   [ '1.0.0',
+608 silly addNameRange     '1.0.1',
+608 silly addNameRange     '1.1.0',
+608 silly addNameRange     '1.2.0',
+608 silly addNameRange     '1.2.1',
+608 silly addNameRange     '1.3.0',
+608 silly addNameRange     '1.3.1',
+608 silly addNameRange     '1.4.0',
+608 silly addNameRange     '1.5.0',
+608 silly addNameRange     '1.5.1' ] ]
+609 verbose addNamed [ 'etag', '1.5.1' ]
+610 verbose addNamed [ '1.5.1', '1.5.1' ]
+611 silly lockFile ae9eb824-etag-1-5-1 etag@1.5.1
+612 verbose lock etag@1.5.1 /Users/emmanuelmong/.npm/ae9eb824-etag-1-5-1.lock
+613 verbose addRemoteTarball [ 'https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz',
+613 verbose addRemoteTarball   '8710d7af0aa626f8fffa1ce00168545263255748' ]
+614 info retry fetch attempt 1 at 20:17:46
+615 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/fresh/-/fresh-0.2.4.tgz
+616 silly addNameRange number 2 { name: 'methods', range: '>=1.1.1-0 <1.2.0-0', hasData: true }
+617 silly addNameRange versions [ 'methods',
+617 silly addNameRange   [ '0.0.1', '0.1.0', '1.0.0', '1.0.1', '1.1.0', '1.1.1' ] ]
+618 verbose addNamed [ 'methods', '1.1.1' ]
+619 verbose addNamed [ '1.1.1', '1.1.1' ]
+620 silly lockFile 30aff2af-methods-1-1-1 methods@1.1.1
+621 verbose lock methods@1.1.1 /Users/emmanuelmong/.npm/30aff2af-methods-1-1-1.lock
+622 http 304 https://registry.npmjs.org/parseurl
+623 silly registry.get cb [ 304,
+623 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+623 silly registry.get     server: 'Apache',
+623 silly registry.get     via: '1.1 varnish',
+623 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+623 silly registry.get     'cache-control': 'max-age=60',
+623 silly registry.get     etag: '"AQPAKALZJT938J4986FA62C6F"',
+623 silly registry.get     age: '36',
+623 silly registry.get     'x-served-by': 'cache-iad2146-IAD',
+623 silly registry.get     'x-cache': 'HIT',
+623 silly registry.get     'x-cache-hits': '1',
+623 silly registry.get     'x-timer': 'S1423358266.699075,VS0,VE0',
+623 silly registry.get     vary: 'Accept',
+623 silly registry.get     'content-length': '0',
+623 silly registry.get     'keep-alive': 'timeout=10, max=48',
+623 silly registry.get     connection: 'Keep-Alive' } ]
+624 verbose etag https://registry.npmjs.org/parseurl from cache
+625 http GET https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz
+626 info retry fetch attempt 1 at 20:17:46
+627 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz
+628 http 304 https://registry.npmjs.org/proxy-addr
+629 silly registry.get cb [ 304,
+629 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+629 silly registry.get     server: 'Apache',
+629 silly registry.get     via: '1.1 varnish',
+629 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+629 silly registry.get     'cache-control': 'max-age=60',
+629 silly registry.get     etag: '"CRDY9K7IWVWF4K2KY47X344TQ"',
+629 silly registry.get     age: '3',
+629 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+629 silly registry.get     'x-cache': 'HIT',
+629 silly registry.get     'x-cache-hits': '1',
+629 silly registry.get     'x-timer': 'S1423358266.702780,VS0,VE0',
+629 silly registry.get     vary: 'Accept',
+629 silly registry.get     'content-length': '0',
+629 silly registry.get     'keep-alive': 'timeout=10, max=49',
+629 silly registry.get     connection: 'Keep-Alive' } ]
+630 verbose etag https://registry.npmjs.org/proxy-addr from cache
+631 http 304 https://registry.npmjs.org/qs
+632 silly registry.get cb [ 304,
+632 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+632 silly registry.get     server: 'Apache',
+632 silly registry.get     via: '1.1 varnish',
+632 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:07 GMT',
+632 silly registry.get     'cache-control': 'max-age=60',
+632 silly registry.get     etag: '"595UFMAXDL6YM5TICF7O3ATPD"',
+632 silly registry.get     age: '42',
+632 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+632 silly registry.get     'x-cache': 'HIT',
+632 silly registry.get     'x-cache-hits': '2',
+632 silly registry.get     'x-timer': 'S1423358266.706491,VS0,VE0',
+632 silly registry.get     vary: 'Accept',
+632 silly registry.get     'content-length': '0',
+632 silly registry.get     'keep-alive': 'timeout=10, max=47',
+632 silly registry.get     connection: 'Keep-Alive' } ]
+633 verbose etag https://registry.npmjs.org/qs from cache
+634 silly lockFile 3a716b4b-js-org-methods-methods-1-1-1-tgz https://registry.npmjs.org/methods/-/methods-1.1.1.tgz
+635 verbose lock https://registry.npmjs.org/methods/-/methods-1.1.1.tgz /Users/emmanuelmong/.npm/3a716b4b-js-org-methods-methods-1-1-1-tgz.lock
+636 http GET https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz
+637 silly lockFile ae9eb824-etag-1-5-1 etag@1.5.1
+638 silly lockFile ae9eb824-etag-1-5-1 etag@1.5.1
+639 verbose addRemoteTarball [ 'https://registry.npmjs.org/methods/-/methods-1.1.1.tgz',
+639 verbose addRemoteTarball   '17ea6366066d00c58e375b8ec7dfd0453c89822a' ]
+640 silly lockFile f5e1798c-etag-1-5-1 etag@~1.5.1
+641 silly lockFile f5e1798c-etag-1-5-1 etag@~1.5.1
+642 silly addNameRange number 2 { name: 'parseurl', range: '>=1.3.0-0 <1.4.0-0', hasData: true }
+643 silly addNameRange versions [ 'parseurl',
+643 silly addNameRange   [ '1.0.0',
+643 silly addNameRange     '1.0.1',
+643 silly addNameRange     '1.1.0',
+643 silly addNameRange     '1.1.1',
+643 silly addNameRange     '1.1.2',
+643 silly addNameRange     '1.1.3',
+643 silly addNameRange     '1.2.0',
+643 silly addNameRange     '1.3.0' ] ]
+644 verbose addNamed [ 'parseurl', '1.3.0' ]
+645 verbose addNamed [ '1.3.0', '1.3.0' ]
+646 silly lockFile 7b3b7804-parseurl-1-3-0 parseurl@1.3.0
+647 verbose lock parseurl@1.3.0 /Users/emmanuelmong/.npm/7b3b7804-parseurl-1-3-0.lock
+648 info retry fetch attempt 1 at 20:17:46
+649 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/methods/-/methods-1.1.1.tgz
+650 silly lockFile e50af523-path-to-regexp-0-1-3 path-to-regexp@0.1.3
+651 silly lockFile e50af523-path-to-regexp-0-1-3 path-to-regexp@0.1.3
+652 silly addNameRange number 2 { name: 'proxy-addr',
+652 silly addNameRange   range: '>=1.0.6-0 <1.1.0-0',
+652 silly addNameRange   hasData: true }
+653 silly addNameRange versions [ 'proxy-addr',
+653 silly addNameRange   [ '0.0.0',
+653 silly addNameRange     '0.0.1',
+653 silly addNameRange     '1.0.0',
+653 silly addNameRange     '1.0.1',
+653 silly addNameRange     '1.0.2',
+653 silly addNameRange     '1.0.3',
+653 silly addNameRange     '1.0.4',
+653 silly addNameRange     '1.0.5',
+653 silly addNameRange     '1.0.6' ] ]
+654 verbose addNamed [ 'proxy-addr', '1.0.6' ]
+655 verbose addNamed [ '1.0.6', '1.0.6' ]
+656 silly lockFile faa9bc77-proxy-addr-1-0-6 proxy-addr@1.0.6
+657 verbose lock proxy-addr@1.0.6 /Users/emmanuelmong/.npm/faa9bc77-proxy-addr-1-0-6.lock
+658 http GET https://registry.npmjs.org/methods/-/methods-1.1.1.tgz
+659 silly lockFile 23642489-gistry-npmjs-org-qs-qs-2-3-3-tgz https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+660 verbose lock https://registry.npmjs.org/qs/-/qs-2.3.3.tgz /Users/emmanuelmong/.npm/23642489-gistry-npmjs-org-qs-qs-2-3-3-tgz.lock
+661 silly lockFile cd1086f3--proxy-addr-proxy-addr-1-0-6-tgz https://registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz
+662 verbose lock https://registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz /Users/emmanuelmong/.npm/cd1086f3--proxy-addr-proxy-addr-1-0-6-tgz.lock
+663 verbose addRemoteTarball [ 'https://registry.npmjs.org/qs/-/qs-2.3.3.tgz',
+663 verbose addRemoteTarball   'e9e85adbe75da0bbe4c8e0476a086290f863b404' ]
+664 verbose addRemoteTarball [ 'https://registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz',
+664 verbose addRemoteTarball   'fce3a4c486bf2e188ad1e76e18399a79d02c0e72' ]
+665 silly lockFile 7b3b7804-parseurl-1-3-0 parseurl@1.3.0
+666 silly lockFile 7b3b7804-parseurl-1-3-0 parseurl@1.3.0
+667 silly lockFile 24650040-parseurl-1-3-0 parseurl@~1.3.0
+668 silly lockFile 24650040-parseurl-1-3-0 parseurl@~1.3.0
+669 info retry fetch attempt 1 at 20:17:46
+670 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/qs/-/qs-2.3.3.tgz
+671 info retry fetch attempt 1 at 20:17:46
+672 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz
+673 http GET https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+674 http GET https://registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz
+675 http 304 https://registry.npmjs.org/type-is
+676 silly registry.get cb [ 304,
+676 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+676 silly registry.get     server: 'Apache',
+676 silly registry.get     via: '1.1 varnish',
+676 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+676 silly registry.get     'cache-control': 'max-age=60',
+676 silly registry.get     etag: '"D2T4YU8HCDXRMIPTS3CVNXI84"',
+676 silly registry.get     age: '39',
+676 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+676 silly registry.get     'x-cache': 'HIT',
+676 silly registry.get     'x-cache-hits': '1',
+676 silly registry.get     'x-timer': 'S1423358266.721639,VS0,VE0',
+676 silly registry.get     vary: 'Accept',
+676 silly registry.get     'content-length': '0',
+676 silly registry.get     'keep-alive': 'timeout=10, max=46',
+676 silly registry.get     connection: 'Keep-Alive' } ]
+677 verbose etag https://registry.npmjs.org/type-is from cache
+678 http 304 https://registry.npmjs.org/range-parser
+679 silly registry.get cb [ 304,
+679 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+679 silly registry.get     server: 'Apache',
+679 silly registry.get     via: '1.1 varnish',
+679 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+679 silly registry.get     'cache-control': 'max-age=60',
+679 silly registry.get     etag: '"1LVOAIULBUH5H9S9EKSD35AIQ"',
+679 silly registry.get     age: '0',
+679 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+679 silly registry.get     'x-cache': 'HIT',
+679 silly registry.get     'x-cache-hits': '1',
+679 silly registry.get     'x-timer': 'S1423358266.709630,VS0,VE10',
+679 silly registry.get     vary: 'Accept',
+679 silly registry.get     'content-length': '0',
+679 silly registry.get     'keep-alive': 'timeout=10, max=47',
+679 silly registry.get     connection: 'Keep-Alive' } ]
+680 verbose etag https://registry.npmjs.org/range-parser from cache
+681 http 304 https://registry.npmjs.org/serve-static
+682 silly registry.get cb [ 304,
+682 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+682 silly registry.get     server: 'Apache',
+682 silly registry.get     via: '1.1 varnish',
+682 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+682 silly registry.get     'cache-control': 'max-age=60',
+682 silly registry.get     etag: '"AILYEB65S0CWNJDC45T2SBDOH"',
+682 silly registry.get     age: '3',
+682 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+682 silly registry.get     'x-cache': 'HIT',
+682 silly registry.get     'x-cache-hits': '1',
+682 silly registry.get     'x-timer': 'S1423358266.719952,VS0,VE0',
+682 silly registry.get     vary: 'Accept',
+682 silly registry.get     'content-length': '0',
+682 silly registry.get     'keep-alive': 'timeout=10, max=48',
+682 silly registry.get     connection: 'Keep-Alive' } ]
+683 verbose etag https://registry.npmjs.org/serve-static from cache
+684 silly addNameRange number 2 { name: 'type-is', range: '>=1.5.6-0 <1.6.0-0', hasData: true }
+685 silly addNameRange versions [ 'type-is',
+685 silly addNameRange   [ '1.0.0',
+685 silly addNameRange     '1.0.1',
+685 silly addNameRange     '1.1.0',
+685 silly addNameRange     '1.2.0',
+685 silly addNameRange     '1.2.1',
+685 silly addNameRange     '1.2.2',
+685 silly addNameRange     '1.3.0',
+685 silly addNameRange     '1.3.1',
+685 silly addNameRange     '1.3.2',
+685 silly addNameRange     '1.4.0',
+685 silly addNameRange     '1.5.0',
+685 silly addNameRange     '1.5.1',
+685 silly addNameRange     '1.5.2',
+685 silly addNameRange     '1.5.3',
+685 silly addNameRange     '1.5.4',
+685 silly addNameRange     '1.5.5',
+685 silly addNameRange     '1.5.6' ] ]
+686 verbose addNamed [ 'type-is', '1.5.6' ]
+687 verbose addNamed [ '1.5.6', '1.5.6' ]
+688 silly lockFile 93f183ff-type-is-1-5-6 type-is@1.5.6
+689 verbose lock type-is@1.5.6 /Users/emmanuelmong/.npm/93f183ff-type-is-1-5-6.lock
+690 silly addNameRange number 2 { name: 'serve-static',
+690 silly addNameRange   range: '>=1.8.1-0 <1.9.0-0',
+690 silly addNameRange   hasData: true }
+691 silly addNameRange versions [ 'serve-static',
+691 silly addNameRange   [ '1.0.0',
+691 silly addNameRange     '1.0.1',
+691 silly addNameRange     '1.0.2',
+691 silly addNameRange     '1.0.3',
+691 silly addNameRange     '1.0.4',
+691 silly addNameRange     '1.1.0',
+691 silly addNameRange     '1.2.0',
+691 silly addNameRange     '1.2.1',
+691 silly addNameRange     '1.2.2',
+691 silly addNameRange     '1.2.3',
+691 silly addNameRange     '1.3.0',
+691 silly addNameRange     '1.3.1',
+691 silly addNameRange     '1.3.2',
+691 silly addNameRange     '1.4.0',
+691 silly addNameRange     '1.4.1',
+691 silly addNameRange     '1.4.2',
+691 silly addNameRange     '1.4.3',
+691 silly addNameRange     '1.4.4',
+691 silly addNameRange     '1.5.0',
+691 silly addNameRange     '1.5.1',
+691 silly addNameRange     '1.5.2',
+691 silly addNameRange     '1.5.3',
+691 silly addNameRange     '1.5.4',
+691 silly addNameRange     '1.6.0',
+691 silly addNameRange     '1.6.1',
+691 silly addNameRange     '1.6.2',
+691 silly addNameRange     '1.6.3',
+691 silly addNameRange     '1.6.4',
+691 silly addNameRange     '1.7.0',
+691 silly addNameRange     '1.7.1',
+691 silly addNameRange     '1.7.2',
+691 silly addNameRange     '1.8.0',
+691 silly addNameRange     '1.8.1',
+691 silly addNameRange     '1.6.5' ] ]
+692 verbose addNamed [ 'serve-static', '1.8.1' ]
+693 verbose addNamed [ '1.8.1', '1.8.1' ]
+694 silly lockFile ffcd4365-serve-static-1-8-1 serve-static@1.8.1
+695 verbose lock serve-static@1.8.1 /Users/emmanuelmong/.npm/ffcd4365-serve-static-1-8-1.lock
+696 silly addNameRange number 2 { name: 'range-parser',
+696 silly addNameRange   range: '>=1.0.2-0 <1.1.0-0',
+696 silly addNameRange   hasData: true }
+697 silly addNameRange versions [ 'range-parser',
+697 silly addNameRange   [ '0.0.1', '0.0.2', '0.0.3', '0.0.4', '1.0.0', '1.0.1', '1.0.2' ] ]
+698 verbose addNamed [ 'range-parser', '1.0.2' ]
+699 verbose addNamed [ '1.0.2', '1.0.2' ]
+700 silly lockFile d8ae2be8-range-parser-1-0-2 range-parser@1.0.2
+701 verbose lock range-parser@1.0.2 /Users/emmanuelmong/.npm/d8ae2be8-range-parser-1-0-2.lock
+702 silly lockFile 949e0fd5-js-org-type-is-type-is-1-5-6-tgz https://registry.npmjs.org/type-is/-/type-is-1.5.6.tgz
+703 verbose lock https://registry.npmjs.org/type-is/-/type-is-1.5.6.tgz /Users/emmanuelmong/.npm/949e0fd5-js-org-type-is-type-is-1-5-6-tgz.lock
+704 silly lockFile 83a92305-ve-static-serve-static-1-8-1-tgz https://registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz
+705 verbose lock https://registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz /Users/emmanuelmong/.npm/83a92305-ve-static-serve-static-1-8-1-tgz.lock
+706 silly lockFile 0c046892-ge-parser-range-parser-1-0-2-tgz https://registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz
+707 verbose lock https://registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz /Users/emmanuelmong/.npm/0c046892-ge-parser-range-parser-1-0-2-tgz.lock
+708 verbose addRemoteTarball [ 'https://registry.npmjs.org/type-is/-/type-is-1.5.6.tgz',
+708 verbose addRemoteTarball   '5be39670ac699b4d0f59df84264cb05be1c9998b' ]
+709 verbose addRemoteTarball [ 'https://registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz',
+709 verbose addRemoteTarball   '08fabd39999f050fc311443f46d5888a77ecfc7c' ]
+710 http 304 https://registry.npmjs.org/cookie
+711 silly registry.get cb [ 304,
+711 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+711 silly registry.get     server: 'Apache',
+711 silly registry.get     via: '1.1 varnish',
+711 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:30 GMT',
+711 silly registry.get     'cache-control': 'max-age=60',
+711 silly registry.get     etag: '"CBBDD0OFS00LJG3VA1C80K1OX"',
+711 silly registry.get     age: '39',
+711 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+711 silly registry.get     'x-cache': 'HIT',
+711 silly registry.get     'x-cache-hits': '2',
+711 silly registry.get     'x-timer': 'S1423358266.743198,VS0,VE0',
+711 silly registry.get     vary: 'Accept',
+711 silly registry.get     'content-length': '0',
+711 silly registry.get     'keep-alive': 'timeout=10, max=46',
+711 silly registry.get     connection: 'Keep-Alive' } ]
+712 verbose etag https://registry.npmjs.org/cookie from cache
+713 http 304 https://registry.npmjs.org/vary
+714 silly registry.get cb [ 304,
+714 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+714 silly registry.get     server: 'Apache',
+714 silly registry.get     via: '1.1 varnish',
+714 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+714 silly registry.get     'cache-control': 'max-age=60',
+714 silly registry.get     etag: '"9KURXIL7SZTSJYZGLSYBN6K21"',
+714 silly registry.get     age: '33',
+714 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+714 silly registry.get     'x-cache': 'HIT',
+714 silly registry.get     'x-cache-hits': '1',
+714 silly registry.get     'x-timer': 'S1423358266.744655,VS0,VE0',
+714 silly registry.get     vary: 'Accept',
+714 silly registry.get     'content-length': '0',
+714 silly registry.get     'keep-alive': 'timeout=10, max=45',
+714 silly registry.get     connection: 'Keep-Alive' } ]
+715 verbose etag https://registry.npmjs.org/vary from cache
+716 verbose addRemoteTarball [ 'https://registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz',
+716 verbose addRemoteTarball   '06a12a42e5131ba8e457cd892044867f2344e549' ]
+717 http 304 https://registry.npmjs.org/merge-descriptors
+718 silly registry.get cb [ 304,
+718 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+718 silly registry.get     server: 'Apache',
+718 silly registry.get     via: '1.1 varnish',
+718 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+718 silly registry.get     'cache-control': 'max-age=60',
+718 silly registry.get     etag: '"BCBAS32VH5H3K0A7MS1YWVXLR"',
+718 silly registry.get     age: '23',
+718 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+718 silly registry.get     'x-cache': 'HIT',
+718 silly registry.get     'x-cache-hits': '1',
+718 silly registry.get     'x-timer': 'S1423358266.743423,VS0,VE0',
+718 silly registry.get     vary: 'Accept',
+718 silly registry.get     'content-length': '0',
+718 silly registry.get     'keep-alive': 'timeout=10, max=47',
+718 silly registry.get     connection: 'Keep-Alive' } ]
+719 verbose etag https://registry.npmjs.org/merge-descriptors from cache
+720 info retry fetch attempt 1 at 20:17:46
+721 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/type-is/-/type-is-1.5.6.tgz
+722 info retry fetch attempt 1 at 20:17:46
+723 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz
+724 info retry fetch attempt 1 at 20:17:46
+725 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz
+726 http GET https://registry.npmjs.org/type-is/-/type-is-1.5.6.tgz
+727 http GET https://registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz
+728 http GET https://registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz
+729 silly addNameRange number 2 { name: 'vary', range: '>=1.0.0-0 <1.1.0-0', hasData: true }
+730 silly addNameRange versions [ 'vary', [ '0.0.0', '0.1.0', '1.0.0' ] ]
+731 verbose addNamed [ 'vary', '1.0.0' ]
+732 verbose addNamed [ '1.0.0', '1.0.0' ]
+733 silly lockFile 637cbfcc-vary-1-0-0 vary@1.0.0
+734 verbose lock vary@1.0.0 /Users/emmanuelmong/.npm/637cbfcc-vary-1-0-0.lock
+735 silly lockFile 2c584536-ry-npmjs-org-vary-vary-1-0-0-tgz https://registry.npmjs.org/vary/-/vary-1.0.0.tgz
+736 verbose lock https://registry.npmjs.org/vary/-/vary-1.0.0.tgz /Users/emmanuelmong/.npm/2c584536-ry-npmjs-org-vary-vary-1-0-0-tgz.lock
+737 http 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz
+738 silly lockFile ccf606cf-cookie-0-1-2 cookie@0.1.2
+739 silly lockFile ccf606cf-cookie-0-1-2 cookie@0.1.2
+740 verbose addRemoteTarball [ 'https://registry.npmjs.org/vary/-/vary-1.0.0.tgz',
+740 verbose addRemoteTarball   'c5e76cec20d3820d8f2a96e7bee38731c34da1e7' ]
+741 silly lockFile a8c24cc5-merge-descriptors-0-0-2 merge-descriptors@0.0.2
+742 silly lockFile a8c24cc5-merge-descriptors-0-0-2 merge-descriptors@0.0.2
+743 http 304 https://registry.npmjs.org/utils-merge
+744 silly registry.get cb [ 304,
+744 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+744 silly registry.get     server: 'Apache',
+744 silly registry.get     via: '1.1 varnish',
+744 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+744 silly registry.get     'cache-control': 'max-age=60',
+744 silly registry.get     etag: '"4BUO8JL6BMC9XZEDGDXY26XLL"',
+744 silly registry.get     age: '48',
+744 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+744 silly registry.get     'x-cache': 'HIT',
+744 silly registry.get     'x-cache-hits': '1',
+744 silly registry.get     'x-timer': 'S1423358266.760750,VS0,VE0',
+744 silly registry.get     vary: 'Accept',
+744 silly registry.get     'content-length': '0',
+744 silly registry.get     'keep-alive': 'timeout=10, max=45',
+744 silly registry.get     connection: 'Keep-Alive' } ]
+745 verbose etag https://registry.npmjs.org/utils-merge from cache
+746 http 304 https://registry.npmjs.org/accepts
+747 silly registry.get cb [ 304,
+747 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+747 silly registry.get     server: 'Apache',
+747 silly registry.get     via: '1.1 varnish',
+747 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+747 silly registry.get     'cache-control': 'max-age=60',
+747 silly registry.get     etag: '"36D3VWNL6SI3TK0VDODN5HV91"',
+747 silly registry.get     age: '46',
+747 silly registry.get     'x-served-by': 'cache-iad2141-IAD',
+747 silly registry.get     'x-cache': 'HIT',
+747 silly registry.get     'x-cache-hits': '1',
+747 silly registry.get     'x-timer': 'S1423358266.762939,VS0,VE0',
+747 silly registry.get     vary: 'Accept',
+747 silly registry.get     'content-length': '0',
+747 silly registry.get     'keep-alive': 'timeout=10, max=44',
+747 silly registry.get     connection: 'Keep-Alive' } ]
+748 verbose etag https://registry.npmjs.org/accepts from cache
+749 info retry fetch attempt 1 at 20:17:46
+750 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/vary/-/vary-1.0.0.tgz
+751 http 200 https://registry.npmjs.org/debug/-/debug-2.1.1.tgz
+752 http 304 https://registry.npmjs.org/content-disposition
+753 silly registry.get cb [ 304,
+753 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+753 silly registry.get     server: 'Apache',
+753 silly registry.get     via: '1.1 varnish',
+753 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+753 silly registry.get     'cache-control': 'max-age=60',
+753 silly registry.get     etag: '"75L68MZ1SGGJH8MX2KIR2D2L"',
+753 silly registry.get     age: '50',
+753 silly registry.get     'x-served-by': 'cache-iad2121-IAD',
+753 silly registry.get     'x-cache': 'HIT',
+753 silly registry.get     'x-cache-hits': '1',
+753 silly registry.get     'x-timer': 'S1423358266.762510,VS0,VE0',
+753 silly registry.get     vary: 'Accept',
+753 silly registry.get     'content-length': '0',
+753 silly registry.get     'keep-alive': 'timeout=10, max=46',
+753 silly registry.get     connection: 'Keep-Alive' } ]
+754 verbose etag https://registry.npmjs.org/content-disposition from cache
+755 http 200 https://registry.npmjs.org/depd/-/depd-1.0.0.tgz
+756 http 200 https://registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz
+757 http GET https://registry.npmjs.org/vary/-/vary-1.0.0.tgz
+758 http 200 https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz
+759 http 304 https://registry.npmjs.org/send
+760 silly registry.get cb [ 304,
+760 silly registry.get   { date: 'Sun, 08 Feb 2015 01:17:46 GMT',
+760 silly registry.get     server: 'Apache',
+760 silly registry.get     via: '1.1 varnish',
+760 silly registry.get     'last-modified': 'Sun, 08 Feb 2015 01:17:46 GMT',
+760 silly registry.get     'cache-control': 'max-age=60',
+760 silly registry.get     etag: '"56GVFS4N96CQ4V5HX28MNCNOT"',
+760 silly registry.get     age: '0',
+760 silly registry.get     'x-served-by': 'cache-iad2146-IAD',
+760 silly registry.get     'x-cache': 'HIT',
+760 silly registry.get     'x-cache-hits': '1',
+760 silly registry.get     'x-timer': 'S1423358266.715573,VS0,VE56',
+760 silly registry.get     vary: 'Accept',
+760 silly registry.get     'content-length': '0',
+760 silly registry.get     'keep-alive': 'timeout=10, max=47',
+760 silly registry.get     connection: 'Keep-Alive' } ]
+761 verbose etag https://registry.npmjs.org/send from cache
+762 http 200 https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz
+763 http 200 https://registry.npmjs.org/methods/-/methods-1.1.1.tgz
+764 http 200 https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+765 silly lockFile 5df7ea91-ature-cookie-signature-1-0-5-tgz https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz
+766 silly lockFile 5df7ea91-ature-cookie-signature-1-0-5-tgz https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.5.tgz
+767 http 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz
+768 silly lockFile b564bb98-cookie-signature-1-0-5 cookie-signature@1.0.5
+769 silly lockFile b564bb98-cookie-signature-1-0-5 cookie-signature@1.0.5
+770 silly addNameRange number 2 { name: 'accepts', range: '>=1.2.3-0 <1.3.0-0', hasData: true }
+771 silly addNameRange versions [ 'accepts',
+771 silly addNameRange   [ '1.0.0',
+771 silly addNameRange     '1.0.1',
+771 silly addNameRange     '1.0.2',
+771 silly addNameRange     '1.0.3',
+771 silly addNameRange     '1.0.4',
+771 silly addNameRange     '1.0.5',
+771 silly addNameRange     '1.0.6',
+771 silly addNameRange     '1.0.7',
+771 silly addNameRange     '1.1.0',
+771 silly addNameRange     '1.1.1',
+771 silly addNameRange     '1.1.2',
+771 silly addNameRange     '1.1.3',
+771 silly addNameRange     '1.1.4',
+771 silly addNameRange     '1.2.0',
+771 silly addNameRange     '1.2.1',
+771 silly addNameRange     '1.2.2',
+771 silly addNameRange     '1.2.3' ] ]
+772 verbose addNamed [ 'accepts', '1.2.3' ]
+773 verbose addNamed [ '1.2.3', '1.2.3' ]
+774 silly lockFile 1338453d-accepts-1-2-3 accepts@1.2.3
+775 verbose lock accepts@1.2.3 /Users/emmanuelmong/.npm/1338453d-accepts-1-2-3.lock
+776 verbose about to build /Users/emmanuelmong/Development/IOT-NodeJs/Sample1/node_modules/express
+777 verbose node_modules/express unbuild
+778 info preuninstall express@4.11.2
+779 silly lockFile 84d6dac9--npmjs-org-debug-debug-2-1-1-tgz https://registry.npmjs.org/debug/-/debug-2.1.1.tgz
+780 silly lockFile 84d6dac9--npmjs-org-debug-debug-2-1-1-tgz https://registry.npmjs.org/debug/-/debug-2.1.1.tgz
+781 info uninstall express@4.11.2
+782 silly lockFile c12a3e0e-ry-npmjs-org-depd-depd-1-0-0-tgz https://registry.npmjs.org/depd/-/depd-1.0.0.tgz
+783 silly lockFile c12a3e0e-ry-npmjs-org-depd-depd-1-0-0-tgz https://registry.npmjs.org/depd/-/depd-1.0.0.tgz
+784 silly lockFile a9f051ee-alhandler-finalhandler-0-3-3-tgz https://registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz
+785 silly lockFile a9f051ee-alhandler-finalhandler-0-3-3-tgz https://registry.npmjs.org/finalhandler/-/finalhandler-0.3.3.tgz
+786 silly lockFile 5304c9ad-js-org-accepts-accepts-1-2-3-tgz https://registry.npmjs.org/accepts/-/accepts-1.2.3.tgz
+787 verbose lock https://registry.npmjs.org/accepts/-/accepts-1.2.3.tgz /Users/emmanuelmong/.npm/5304c9ad-js-org-accepts-accepts-1-2-3-tgz.lock
+788 silly lockFile 656b33b7-debug-2-1-1 debug@2.1.1
+789 silly lockFile 656b33b7-debug-2-1-1 debug@2.1.1
+790 silly lockFile ec0b68a3-depd-1-0-0 depd@1.0.0
+791 silly lockFile ec0b68a3-depd-1-0-0 depd@1.0.0
+792 silly lockFile b31dae24-finalhandler-0-3-3 finalhandler@0.3.3
+793 silly lockFile b31dae24-finalhandler-0-3-3 finalhandler@0.3.3
+794 silly lockFile efa8791a-edia-typer-media-typer-0-3-0-tgz https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz
+795 silly lockFile efa8791a-edia-typer-media-typer-0-3-0-tgz https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz
+796 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+797 silly lockFile 09d11068-debug-2-1-1 debug@~2.1.1
+798 verbose true,/Users/emmanuelmong/Development/IOT-NodeJs/Sample1/node_modules,/Users/emmanuelmong/Development/IOT-NodeJs/Sample1/node_modules unbuild express@4.11.2
+799 info postuninstall express@4.11.2
+800 verbose addRemoteTarball [ 'https://registry.npmjs.org/accepts/-/accepts-1.2.3.tgz',
+800 verbose addRemoteTarball   '2cb8b306cce2aa70e73ab39cc750061526c0778f' ]
+801 silly lockFile 5fd3b83f-depd-1-0-0 depd@~1.0.0
+802 silly lockFile 5fd3b83f-depd-1-0-0 depd@~1.0.0
+803 silly lockFile a6fc3981-media-typer-0-3-0 media-typer@0.3.0
+804 silly lockFile a6fc3981-media-typer-0-3-0 media-typer@0.3.0
+805 silly lockFile 98df787d--npmjs-org-fresh-fresh-0-2-4-tgz https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz
+806 silly lockFile 98df787d--npmjs-org-fresh-fresh-0-2-4-tgz https://registry.npmjs.org/fresh/-/fresh-0.2.4.tgz
+807 silly lockFile 3a716b4b-js-org-methods-methods-1-1-1-tgz https://registry.npmjs.org/methods/-/methods-1.1.1.tgz
+808 silly lockFile 3a716b4b-js-org-methods-methods-1-1-1-tgz https://registry.npmjs.org/methods/-/methods-1.1.1.tgz
+809 silly lockFile e5a90845-y-npmjs-org-send-send-0-11-1-tgz https://registry.npmjs.org/send/-/send-0.11.1.tgz
+810 verbose lock https://registry.npmjs.org/send/-/send-0.11.1.tgz /Users/emmanuelmong/.npm/e5a90845-y-npmjs-org-send-send-0-11-1-tgz.lock
+811 silly lockFile 23642489-gistry-npmjs-org-qs-qs-2-3-3-tgz https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+812 silly lockFile 23642489-gistry-npmjs-org-qs-qs-2-3-3-tgz https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+813 silly lockFile f563025b-utils-merge-1-0-0 utils-merge@1.0.0
+814 silly lockFile f563025b-utils-merge-1-0-0 utils-merge@1.0.0
+815 http 200 https://registry.npmjs.org/type-is/-/type-is-1.5.6.tgz
+816 silly lockFile 269b5bd6-fresh-0-2-4 fresh@0.2.4
+817 silly lockFile 269b5bd6-fresh-0-2-4 fresh@0.2.4
+818 silly lockFile 30aff2af-methods-1-1-1 methods@1.1.1
+819 silly lockFile 30aff2af-methods-1-1-1 methods@1.1.1
+820 silly lockFile cd1086f3--proxy-addr-proxy-addr-1-0-6-tgz https://registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz
+821 silly lockFile cd1086f3--proxy-addr-proxy-addr-1-0-6-tgz https://registry.npmjs.org/proxy-addr/-/proxy-addr-1.0.6.tgz
+822 silly lockFile 91f8f145-qs-2-3-3 qs@2.3.3
+823 silly lockFile 91f8f145-qs-2-3-3 qs@2.3.3
+824 silly lockFile b00a8781-content-disposition-0-5-0 content-disposition@0.5.0
+825 silly lockFile b00a8781-content-disposition-0-5-0 content-disposition@0.5.0
+826 http 200 https://registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz
+827 verbose addRemoteTarball [ 'https://registry.npmjs.org/send/-/send-0.11.1.tgz',
+827 verbose addRemoteTarball   '1beabfd42f9e2709f99028af3078ac12b47092d5' ]
+828 silly lockFile 8f4b0360-methods-1-1-1 methods@~1.1.1
+829 silly lockFile 8f4b0360-methods-1-1-1 methods@~1.1.1
+830 silly lockFile faa9bc77-proxy-addr-1-0-6 proxy-addr@1.0.6
+831 silly lockFile faa9bc77-proxy-addr-1-0-6 proxy-addr@1.0.6
+832 info retry fetch attempt 1 at 20:17:46
+833 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/accepts/-/accepts-1.2.3.tgz
+834 http 200 https://registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz
+835 http 200 https://registry.npmjs.org/vary/-/vary-1.0.0.tgz
+836 silly lockFile 4285468d-proxy-addr-1-0-6 proxy-addr@~1.0.6
+837 silly lockFile 4285468d-proxy-addr-1-0-6 proxy-addr@~1.0.6
+838 http GET https://registry.npmjs.org/accepts/-/accepts-1.2.3.tgz
+839 info retry fetch attempt 1 at 20:17:46
+840 verbose fetch to= /var/folders/l_/91ttxktj0y56pbxb14_psk240000gn/T/npm-12706-tHPwLqwY/registry.npmjs.org/send/-/send-0.11.1.tgz
+841 http GET https://registry.npmjs.org/send/-/send-0.11.1.tgz
+842 silly lockFile 949e0fd5-js-org-type-is-type-is-1-5-6-tgz https://registry.npmjs.org/type-is/-/type-is-1.5.6.tgz
+843 silly lockFile 949e0fd5-js-org-type-is-type-is-1-5-6-tgz https://registry.npmjs.org/type-is/-/type-is-1.5.6.tgz
+844 silly lockFile 83a92305-ve-static-serve-static-1-8-1-tgz https://registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz
+845 silly lockFile 83a92305-ve-static-serve-static-1-8-1-tgz https://registry.npmjs.org/serve-static/-/serve-static-1.8.1.tgz
+846 silly lockFile 93f183ff-type-is-1-5-6 type-is@1.5.6
+847 silly lockFile 93f183ff-type-is-1-5-6 type-is@1.5.6
+848 silly lockFile ffcd4365-serve-static-1-8-1 serve-static@1.8.1
+849 silly lockFile ffcd4365-serve-static-1-8-1 serve-static@1.8.1
+850 silly lockFile 2c584536-ry-npmjs-org-vary-vary-1-0-0-tgz https://registry.npmjs.org/vary/-/vary-1.0.0.tgz
+851 silly lockFile 2c584536-ry-npmjs-org-vary-vary-1-0-0-tgz https://registry.npmjs.org/vary/-/vary-1.0.0.tgz
+852 silly lockFile 0c046892-ge-parser-range-parser-1-0-2-tgz https://registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz
+853 silly lockFile 0c046892-ge-parser-range-parser-1-0-2-tgz https://registry.npmjs.org/range-parser/-/range-parser-1.0.2.tgz
+854 silly lockFile 9a18b765-type-is-1-5-6 type-is@~1.5.6
+855 silly lockFile 9a18b765-type-is-1-5-6 type-is@~1.5.6
+856 silly lockFile 0f0e3efb-serve-static-1-8-1 serve-static@~1.8.1
+857 silly lockFile 0f0e3efb-serve-static-1-8-1 serve-static@~1.8.1
+858 silly lockFile 637cbfcc-vary-1-0-0 vary@1.0.0
+859 silly lockFile 637cbfcc-vary-1-0-0 vary@1.0.0
+860 silly lockFile d8ae2be8-range-parser-1-0-2 range-parser@1.0.2
+861 silly lockFile d8ae2be8-range-parser-1-0-2 range-parser@1.0.2
+862 silly lockFile c36fce5f-vary-1-0-0 vary@~1.0.0
+863 silly lockFile c36fce5f-vary-1-0-0 vary@~1.0.0
+864 silly lockFile 0415ce7e-range-parser-1-0-2 range-parser@~1.0.2
+865 silly lockFile 0415ce7e-range-parser-1-0-2 range-parser@~1.0.2
+866 error Error: EACCES, mkdir '/Users/emmanuelmong/.npm/cookie-signature/1.0.5'
+866 error  { [Error: EACCES, mkdir '/Users/emmanuelmong/.npm/cookie-signature/1.0.5']
+866 error   errno: 3,
+866 error   code: 'EACCES',
+866 error   path: '/Users/emmanuelmong/.npm/cookie-signature/1.0.5',
+866 error   parent: 'express' }
+867 error Please try running this command again as root/Administrator.
+868 error System Darwin 14.1.0
+869 error command "node" "/usr/local/bin/npm" "install" "--save" "express"
+870 error cwd /Users/emmanuelmong/Development/IOT-NodeJs/Sample1
+871 error node -v v0.10.31
+872 error npm -v 1.4.23
+873 error path /Users/emmanuelmong/.npm/cookie-signature/1.0.5
+874 error code EACCES
+875 error errno 3
+876 error stack Error: EACCES, mkdir '/Users/emmanuelmong/.npm/cookie-signature/1.0.5'
+877 verbose exit [ 3, true ]

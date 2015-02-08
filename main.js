@@ -28,7 +28,7 @@ Function: startSensorWatch(socket)
 Parameters: socket - client communication channel
 Description: Read Temperature Sensor and send temperature in degrees of Fahrenheit every 4 seconds
 */
-function startSensorWatch(socket) {
+function startSensorWatch(res) {
     'use strict';
     setInterval(function () {
         var a = myAnalogPin.read();
@@ -41,34 +41,18 @@ function startSensorWatch(socket) {
         //console.log("Celsius Temperature "+celsius_temperature); 
         var fahrenheit_temperature = (celsius_temperature * (9 / 5)) + 32;
         console.log("Fahrenheit Temperature: " + fahrenheit_temperature);
-        socket.emit("message", fahrenheit_temperature);
+        res.send(fahrenheit_temperature);
     }, 4000);
 }
 
 console.log("Sample Reading Grove Kit Temperature Sensor");
 
-//Create Socket.io server
-var http = require('http');
-var app = http.createServer(function (req, res) {
-    'use strict';
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('<h1>Hello world from Intel IoT platform!</h1>');
-}).listen(1337);
-var io = require('socket.io')(app);
+//Create express server
+var express = require('express');
+var app = express();
 
-//Attach a 'connection' event handler to the server
-io.on('connection', function (socket) {
-    'use strict';
-    console.log('a user connected');
-    //Emits an event along with a message
-    socket.emit('connected', 'Welcome');
-
-    //Start watching Sensors connected to Galileo board
-    startSensorWatch(socket);
-
-    //Attach a 'disconnect' event handler to the socket
-    socket.on('disconnect', function () {
-        console.log('user disconnected');
-    });
+// respond with "hello world" when a GET request is made to the homepage
+app.get('/temperature', function(req, res) {
+    startSensorWatch(res);
 });
 
