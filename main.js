@@ -30,19 +30,17 @@ Description: Read Temperature Sensor and send temperature in degrees of Fahrenhe
 */
 function startSensorWatch(res) {
     'use strict';
-    setInterval(function () {
-        var a = myAnalogPin.read();
-        console.log("Analog Pin (A0) Output: " + a);
-        //console.log("Checking....");
-        
-        var resistance = (1023 - a) * 10000 / a; //get the resistance of the sensor;
-        //console.log("Resistance: "+resistance);
-        var celsius_temperature = 1 / (Math.log(resistance / 10000) / B + 1 / 298.15) - 273.15;//convert to temperature via datasheet ;
-        //console.log("Celsius Temperature "+celsius_temperature); 
-        var fahrenheit_temperature = (celsius_temperature * (9 / 5)) + 32;
-        console.log("Fahrenheit Temperature: " + fahrenheit_temperature);
-        res.send(fahrenheit_temperature);
-    }, 4000);
+    var a = myAnalogPin.read();
+    console.log("Analog Pin (A0) Output: " + a);
+    //console.log("Checking....");
+
+    var resistance = (1023 - a) * 10000 / a; //get the resistance of the sensor;
+    //console.log("Resistance: "+resistance);
+    var celsius_temperature = 1 / (Math.log(resistance / 10000) / B + 1 / 298.15) - 273.15;//convert to temperature via datasheet ;
+    //console.log("Celsius Temperature "+celsius_temperature); 
+    var fahrenheit_temperature = (celsius_temperature * (9 / 5)) + 32;
+    console.log("Fahrenheit Temperature: " + fahrenheit_temperature);
+    res.send("Fahrenheit Temperature: " + fahrenheit_temperature);
 }
 
 console.log("Sample Reading Grove Kit Temperature Sensor");
